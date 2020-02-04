@@ -10,9 +10,9 @@ title: Hello, world!
 description: Lessons learned doing data engineering and machine-learning in the corporate world.
 github_username: slangenbach
 
-# Email and twitter are optional:
+# Email and Linkedin are optional:
 email: stefan@langenbach.online
-twitter_username:
+linkedin_username: stefanlangenbach
 
 # Set this to true to get LaTeX math equation support
 use_math:
