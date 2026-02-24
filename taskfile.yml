@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://taskfile.dev/schema.json
+
+version: '3'
+
+
+tasks:
+  preview:
+    cmds:
+      - quarto preview
+    desc: Preview website
+
+  new-post:
+    cmds:
+      - mkdir -p ./posts/{{.POST_NAME}}
+      - touch ./posts/{{.POST_NAME}}/index.qmd
+    requires:
+      vars:
+        - name: POST_NAME
+    desc: Create new blog post

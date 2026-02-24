@@ -1,0 +1,26 @@
+project:
+  type: website
+
+website:
+  search: false
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: blog.qmd
+        text: Blog
+  page-footer:
+    # center:
+    center:
+      - text: "© 2026 Stefan Langenbach"
+        href: index.qmd
+      - text: "Imprint"
+        href: imprint.qmd
+      - text: "Privacy Policy"
+        href: privacy.qmd
+
+format:
+  html:
+    theme:
+      light: [default, assets/styles/light.scss]
+      dark: [default, assets/styles/dark.scss]

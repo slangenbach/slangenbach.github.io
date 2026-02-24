@@ -1,0 +1,25 @@
+---
+title: "Stefan Langenbach"
+format: html
+image: assets/images/profile.jpg
+about:
+  template: jolla
+  image-shape: round
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/stefanlangenbach
+    - icon: github
+      text: GitHub
+      href: https://github.com/slangenbach
+---
+
+I am currently working in Software Engineering 👨‍💻 for Data, AI and Cloud at [qdive][1].\
+I am also the founder & CEO of [byteCare][2].\
+I usually write Python 🐍 and work with AWS and Azure ☁️.\
+On the side I also mix in some TypeScript, Go and Terraform.\
+If not coding, I might hit the homegym 🏋️‍♂️, go for a hike 🥾 or do some cooking 👨‍🍳.
+
+
+[1]: https://www.qdive.io/
+[2]: https://www.bytecare.tech
