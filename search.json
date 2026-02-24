@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "No matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Stefan Langenbach",
+    "section": "",
+    "text": "I am currently working in Software Engineering 👨‍💻 for Data, AI and Cloud at qdive.\nI am also the founder & CEO of byteCare.\nI usually write Python 🐍 and work with AWS and Azure ☁️.\nOn the side I also mix in some TypeScript, Go and Terraform.\nIf not coding, I might hit the homegym 🏋️‍♂️, go for a hike 🥾 or do some cooking 👨‍🍳."
+  },
+  {
+    "objectID": "imprint.html",
+    "href": "imprint.html",
+    "title": "Impressum",
+    "section": "",
+    "text": "tbd"
+  },
+  {
+    "objectID": "privacy.html",
+    "href": "privacy.html",
+    "title": "Datenschutzerklärung",
+    "section": "",
+    "text": "tbd"
+  }
+]
