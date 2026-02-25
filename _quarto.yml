@@ -9,8 +9,9 @@ website:
         text: Home
       - href: blog.qmd
         text: Blog
+  draft-mode: unlinked
   page-footer:
-    # center:
+    border: false
     center:
       - text: "© 2026 Stefan Langenbach"
         href: index.qmd
