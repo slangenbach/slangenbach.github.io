@@ -3,4 +3,12 @@ title: Impressum
 format: html
 ---
 
-tbd
+Stefan Langenbach\
+Am Hangeweiher 3\
+52074 Aachen\
+
+### Kontakt
+Telefon: +49-241-95704253\
+E-Mail: hello@langenbach.online\
+
+Quelle: [e-Recht24.de](https://www.e-recht24.de/impressum-generator.html)
