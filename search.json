@@ -7,11 +7,11 @@
     "text": "Stefan Langenbach\nAm Hangeweiher 3\n52074 Aachen\n\n\nKontakt\nTelefon: +49-241-95704253\nE-Mail: hello@langenbach.online\n\nQuelle: e-Recht24.de"
   },
   {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "Blog",
+    "objectID": "posts/hello-world/index.html",
+    "href": "posts/hello-world/index.html",
+    "title": "Hello World",
     "section": "",
-    "text": "No matching items"
+    "text": "Dear reader,\nwelcome to my blog.\nThis is my second? attempt at publishing content regularly. The plan is to use this blog to document the things I learned (TIL). As I have a life outside work, I won’t do so on daily basis. Instead, my goal is create one post per month featuring the most important learnings. I promise that no AI will be used to generate the text you will read. This is an exercise in writing, not AI engineering.\nLooking forward to join me on this journey."
   },
   {
     "objectID": "index.html",
@@ -19,6 +19,13 @@
     "title": "Stefan Langenbach",
     "section": "",
     "text": "I am currently working in Software Engineering 👨‍💻 for Data, AI and Cloud at qdive.\nI am also the founder & CEO of byteCare.\nI usually write Python 🐍 and work with AWS and Azure ☁️.\nOn the side I also mix in some TypeScript, Go and Terraform.\nIf not coding, I might hit the homegym 🏋️‍♂️, go for a hike 🥾 or do some cooking 👨‍🍳."
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Hello World\n\n\nMy second attempt at blogging regularly.\n\n\n\n\n\nFeb 26, 2026\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "privacy.html",
