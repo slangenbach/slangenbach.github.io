@@ -1,9 +1,17 @@
 ---
 title: "Hello World"
-description: "My first blog post"
-date: "2026-02-24"
+description: "My second attempt at blogging regularly."
+date: "2026-02-26"
 tags: [hello-world]
-draft: true
+draft: false
 ---
 
-My first blog post!
+Dear reader,
+
+welcome to my blog.\
+This is my second? attempt at publishing content regularly. The plan is to use this blog to document the things I learned ([TIL][1]). As I have a life outside work, I won't do so on daily basis. Instead, my goal is create one post per month featuring the most important learnings. I promise that no AI will be used to generate the text you will read. This is an exercise in writing, not AI engineering.
+
+Looking forward to join me on this journey.
+
+
+[1]: https://knowyourmeme.com/memes/today-i-learned-til
