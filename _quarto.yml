@@ -25,3 +25,6 @@ format:
     theme:
       light: [default, assets/styles/light.scss]
       dark: [default, assets/styles/dark.scss]
+
+execute:
+  freeze: auto
