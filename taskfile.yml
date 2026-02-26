@@ -10,10 +10,13 @@ tasks:
     desc: Preview website
 
   new-post:
+    dir: posts
     cmds:
-      - mkdir -p ./posts/{{.POST_NAME}}
-      - touch ./posts/{{.POST_NAME}}/index.qmd
+      - mkdir -p {{.POST_NAME}}
+      - cp _template.qmd ./{{.POST_NAME}}/index.qmd
     requires:
       vars:
         - name: POST_NAME
+    status:
+      - test -d {{.POST_NAME}}
     desc: Create new blog post
