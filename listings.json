@@ -2,6 +2,7 @@
   {
     "listing": "/blog.html",
     "items": [
+      "/posts/last-invention-podcast/index.html",
       "/posts/hello-world/index.html"
     ]
   }
