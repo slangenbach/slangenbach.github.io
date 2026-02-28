@@ -1,0 +1,20 @@
+---
+title: "The Last Invention"
+description: "A podcast series about the AI revolution"
+date: "2026-03-02"
+tags: [podcast, ai]
+draft: false
+---
+
+I stumbled upon a gem last week: [The Last Invention][1] from [Longview][2] is a podcast series about the origins, development, risks and opportunities posed by AI. Starting with the [Turing test][3] in the 1950s, it goes on to tell the story of AI development, mentioning [DeepBlue][4], [Watson][5], [AlphaGo][6], [Deepmind][7], [OpenAI][8] and [Anthropic][9]. During the last week, I listened to the entire first season and can only recommend it: It's thought-provoking, very well produced and just fascinating.
+
+
+[1]: https://podcasts.apple.com/us/podcast/the-last-invention/id1839942885
+[2]: https://www.longviewinvestigations.com/
+[3]: https://en.wikipedia.org/wiki/Turing_test
+[4]: https://www.ibm.com/history/deep-blue
+[5]: https://www.ibm.com/history/watson-jeopardy
+[6]: https://deepmind.google/research/alphago/
+[7]: https://deepmind.google/about/
+[8]: https://openai.com/about/
+[9]: https://www.anthropic.com/company
