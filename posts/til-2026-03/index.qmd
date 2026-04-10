@@ -1,0 +1,42 @@
+---
+title: "TIL: Quarto, Small Language Models, Self-Hosting"
+description: "This month I learned March 2026 edition"
+date: "2026-04-10"
+tags: [til, quarto, small-language-models, self-hosting]
+draft: false
+---
+
+## TL;DR
+
+Use [Quarto][1] for presentations and documents; If you're hardware allows it, run small language models locally using [Ollama][10]. Give the latest iteration of [Gemma][5] a try; Seriously consider self-hosting if you have basic Linux and DevOps experience. A Linux server, reverse-proxy and container runtime is all you need to get started.
+
+## Quarto
+
+Experimenting with [Quarto][1] has been on my list for a long time. This month I finally got to use it to create [revealjs][2] powered slides and a [typst][3] based document. I authored both documents in VSCode using the official [Quarto extension][4] and won't go back.
+
+## Small Language Models
+
+With the release of [Gemma 4][5], I've updated my [Ollama][10] installation and took several small, open-source language models ([Granite 4][6], [Qwen 3.5][7], [Gemma 4][5] and [SmolLM v3][9]) for a ride. My current hardware setup (MacBook Air M2 with 16 RAM) only allows me to run the tiny versions of those models. While all of them work great for prototyping AI-powered applications, they don't yet replace frontier models for more advanced tasks. I might just need to invest in beefier hardware to make that happen.
+
+## Selfhosting
+
+I went down the self-hosting and homelab rabbit hole after reading Michael Kennedy's [Talk Python in Production][11] book. After researching self-hosted PaaS solutions, I tinkered with [disco][12] on a super cheap [Hetzner][13] server to host apps over at [byteCare][13]. Currently, I am implementing a custom solution based on [Caddy][15], [Docker Compose][16] and [Zitadel][17]. Stay tuned, this might deserve its own blog post.
+
+
+[1]: https://quarto.org/
+[2]: https://quarto.org/docs/presentations/revealjs/
+[3]: https://quarto.org/docs/output-formats/typst.html
+[4]: https://quarto.org/docs/tools/vscode/index.html
+[5]: https://deepmind.google/models/gemma/gemma-4/
+[6]: https://huggingface.co/ibm-granite
+[7]: https://huggingface.co/Qwen
+[8]: https://huggingface.co/google
+[9]: https://huggingface.co/HuggingFaceTB/SmolLM3-3B
+[10]: https://ollama.com/
+[11]: https://talkpython.fm/books/python-in-production
+[12]: https://disco.cloud/
+[13]: https://www.hetzner.com/
+[14]: https://www.bytecare.tech
+[15]: https://caddyserver.com/docs/
+[16]: https://docs.docker.com/compose/
+[17]: https://zitadel.com/about
