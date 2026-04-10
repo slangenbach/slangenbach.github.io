@@ -1,11 +1,11 @@
 ---
-title: "TWIL: "
-description: "tbd"
+title: "TIL: "
+description: "This month I learned <MONTH> <YEAR> edition"
 date: "YYYY-MM-DD"
-tags: [twil]
+tags: [til]
 draft: true
 ---
 
-# TL;DR
+## TL;DR
 
 tbd
