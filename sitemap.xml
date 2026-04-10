@@ -1,27 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://stefan.langenbach.online/imprint.html</loc>
-    <lastmod>2026-02-28T20:51:01.159Z</lastmod>
+    <loc>https://stefan.langenbach.online/privacy.html</loc>
+    <lastmod>2026-04-10T15:18:49.748Z</lastmod>
   </url>
   <url>
     <loc>https://stefan.langenbach.online/posts/last-invention-podcast/index.html</loc>
-    <lastmod>2026-02-28T20:51:01.159Z</lastmod>
-  </url>
-  <url>
-    <loc>https://stefan.langenbach.online/blog.html</loc>
-    <lastmod>2026-02-28T20:51:01.159Z</lastmod>
-  </url>
-  <url>
-    <loc>https://stefan.langenbach.online/index.html</loc>
-    <lastmod>2026-02-28T20:51:01.159Z</lastmod>
+    <lastmod>2026-04-10T15:18:49.748Z</lastmod>
   </url>
   <url>
     <loc>https://stefan.langenbach.online/posts/hello-world/index.html</loc>
-    <lastmod>2026-02-28T20:51:01.159Z</lastmod>
+    <lastmod>2026-04-10T15:18:49.748Z</lastmod>
   </url>
   <url>
-    <loc>https://stefan.langenbach.online/privacy.html</loc>
-    <lastmod>2026-02-28T20:51:01.159Z</lastmod>
+    <loc>https://stefan.langenbach.online/blog.html</loc>
+    <lastmod>2026-04-10T15:18:49.748Z</lastmod>
+  </url>
+  <url>
+    <loc>https://stefan.langenbach.online/imprint.html</loc>
+    <lastmod>2026-04-10T15:18:49.748Z</lastmod>
+  </url>
+  <url>
+    <loc>https://stefan.langenbach.online/posts/til-2026-03/index.html</loc>
+    <lastmod>2026-04-10T15:18:49.748Z</lastmod>
+  </url>
+  <url>
+    <loc>https://stefan.langenbach.online/index.html</loc>
+    <lastmod>2026-04-10T15:18:49.748Z</lastmod>
   </url>
 </urlset>
