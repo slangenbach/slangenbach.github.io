@@ -14,10 +14,11 @@ about:
       href: https://github.com/slangenbach
 ---
 
-I work as *Principal Consultant* in Software Engineering 👨‍💻 for Data, AI and Cloud at [Comma Soft][1].\
+Hi, I'm Stefan 👋🏻\
+I work as a *Principal Consultant* in Software Engineering 👨‍💻 for Data, AI and Cloud at [Comma Soft][1].\
 I am also the founder & CEO of [byteCare][2].\
 I usually write Python 🐍 work with AWS and Azure ☁️ and wrestle with AI models 🤖.\
-On the side I usually mix in some TypeScript, Go and Terraform.\
+On the side I might mix in some TypeScript, Go and Terraform.\
 If not coding, I might hit the homegym 🏋️‍♂️, go for a hike 🥾 or do some cooking 👨‍🍳.
 
 
