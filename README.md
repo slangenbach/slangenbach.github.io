@@ -20,7 +20,7 @@ The [deploy workflow](.github/workflows/deploy.yml) will take care of rendering 
 
 ### Creating blog posts
 
-1. Create a new draft post via `task new-post POST_NAME=<HYPHEN-DELIMITED-NAME-OF-POST>`
+1. Create a new draft post via `task new-post POST_TYPE=<POST_TYPE> POST_NAME=<HYPHEN-DELIMITED-NAME-OF-POST>`
 1. Add content to newly created `index.qmd` file
 1. Commit changes and push to main
 
