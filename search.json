@@ -14,6 +14,27 @@
     "text": "I stumbled upon a gem last week: The Last Invention from Longview is a podcast series about the origins, development, risks and opportunities posed by AI. Starting with the Turing test in the 1950s, it goes on to tell the story of AI development, mentioning DeepBlue, Watson, AlphaGo, Deepmind, OpenAI and Anthropic. During the last week, I listened to the entire first season and can only recommend it: It’s thought-provoking, very well produced and just fascinating."
   },
   {
+    "objectID": "posts/hello-world/index.html",
+    "href": "posts/hello-world/index.html",
+    "title": "Hello World",
+    "section": "",
+    "text": "Dear reader,\nwelcome to my blog.\n\nThis is my second? attempt at publishing content regularly. The plan is to use this blog to document the things I learned (TIL). As I have a life outside work, I won’t do so on daily basis. Instead, my goal is create one post per month featuring the most important learnings. I promise not to use AI to generate the text you will read. This is an exercise in writing, not AI engineering.\nLooking forward to have you with me on this journey."
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "TIL: Quarto, Small Language Models, Self-Hosting\n\n\nThis month I learned March 2026 edition\n\n\n\n\n\nApr 10, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nThe Last Invention\n\n\nA podcast series about the AI revolution\n\n\n\n\n\nMar 2, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nHello World\n\n\nMy second attempt at blogging regularly.\n\n\n\n\n\nFeb 26, 2026\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "imprint.html",
+    "href": "imprint.html",
+    "title": "Impressum",
+    "section": "",
+    "text": "Stefan Langenbach\nAm Hangeweiher 3\n52074 Aachen\n\n\nKontakt\nTelefon: +49-241-95704253\nE-Mail: hello@langenbach.online\n\nQuelle: e-Recht24.de"
+  },
+  {
     "objectID": "posts/til-2026-03/index.html",
     "href": "posts/til-2026-03/index.html",
     "title": "TIL: Quarto, Small Language Models, Self-Hosting",
@@ -47,27 +68,6 @@
     "title": "TIL: Quarto, Small Language Models, Self-Hosting",
     "section": "Selfhosting",
     "text": "Selfhosting\nI went down the self-hosting and homelab rabbit hole after reading Michael Kennedy’s Talk Python in Production book. After researching self-hosted PaaS solutions, I tinkered with disco on a super cheap Hetzner server to host apps over at byteCare. Currently, I am implementing a custom solution based on Caddy, Docker Compose and Zitadel. Stay tuned, this might deserve its own blog post."
-  },
-  {
-    "objectID": "imprint.html",
-    "href": "imprint.html",
-    "title": "Impressum",
-    "section": "",
-    "text": "Stefan Langenbach\nAm Hangeweiher 3\n52074 Aachen\n\n\nKontakt\nTelefon: +49-241-95704253\nE-Mail: hello@langenbach.online\n\nQuelle: e-Recht24.de"
-  },
-  {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "Blog",
-    "section": "",
-    "text": "TIL: Quarto, Small Language Models, Self-Hosting\n\n\nThis month I learned March 2026 edition\n\n\n\n\n\nApr 10, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nThe Last Invention\n\n\nA podcast series about the AI revolution\n\n\n\n\n\nMar 2, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nHello World\n\n\nMy second attempt at blogging regularly.\n\n\n\n\n\nFeb 26, 2026\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "posts/hello-world/index.html",
-    "href": "posts/hello-world/index.html",
-    "title": "Hello World",
-    "section": "",
-    "text": "Dear reader,\nwelcome to my blog.\n\nThis is my second? attempt at publishing content regularly. The plan is to use this blog to document the things I learned (TIL). As I have a life outside work, I won’t do so on daily basis. Instead, my goal is create one post per month featuring the most important learnings. I promise not to use AI to generate the text you will read. This is an exercise in writing, not AI engineering.\nLooking forward to have you with me on this journey."
   },
   {
     "objectID": "index.html",
