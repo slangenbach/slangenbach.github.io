@@ -1,0 +1,14 @@
+---
+title: "The AI Doc"
+description: "A documentary about the risks and opportunities of AI"
+date: "YYYY-MM-DD"
+tags: [documentary, ai]
+draft: true
+---
+
+In his recent [conversation with Sam Harris][1], Tristan Harris, which you might recall from [The Social Dilemma][2], discuss the documentary movie [The AI Doc][3].
+
+
+[1]: https://www.samharris.org/podcasts/making-sense-episodes/469-escaping-an-anti-human-future
+[2]: https://thesocialdilemma.com/
+[3]: https://www.imdb.com/title/tt39150120/
