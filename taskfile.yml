@@ -16,7 +16,7 @@ tasks:
     requires:
       vars:
         - name: POST_TYPE
-          enum: [til, fpe]
+          enum: [default, til, fpe]
         - name: POST_NAME
     status:
       - test -d {{.POST_NAME}}
