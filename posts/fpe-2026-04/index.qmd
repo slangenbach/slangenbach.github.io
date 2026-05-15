@@ -1,0 +1,54 @@
+---
+title: "FPE: DHH, Mitchell Hashimoto, Building Claude Code, Wetware and Monty"
+description: "Favorite podcast episodes April 2026 edition"
+date: "2026-05-04"
+tags: [fpe]
+draft: false
+---
+
+I have been an avid podcast listener for more than a decade. When I began listening, the podcast world was small: I was subscribing to a handful of indie podcasts focusing on technology, [journalism][9], [nonsense][10] and everything in between. Episodes were released occasionally and it was easy to keep up with the shows. Today, podcasts are everywhere, and it's much harder to keep up. The *Favorite Podcast Episodes* series is an attempt to recommend episodes actually worth listening to.
+
+## TL;DR
+
+- [DHH on PE][1] (c.f. [DHH on Lex Friedman][2])
+- [Mitchell Hashimoto on PE][3]
+- [Building Claude Code][4] with Boris Cherny on PE
+- Last Invention: New episode on [Wetware][6] and an interview with [Sam Altman's attacker][7]
+- [Monty: Python in Rust for AI][8] with Samuel Colvin on Talk Python To Me
+
+## DHH on PE
+
+Conversations with David Heinerman Hanson (DHH) are always worth listening to. In this episode on the [Pragmatic Engineer's (PE)][15] podcast, DHH talks about his journey agentic engineering journey.
+
+## Mitchell Hashimoto on PE
+
+Another feature from the [PE][15] podcast with Mitchel Hashimoto about the history of Hashicorp, the attitude of major cloud providers, how he uses AI and [Ghostty][14].
+
+## Building Claude Code
+
+An interview with the core developer of Claude Code - especially interesting because of the recent [Claude Code leak][5].
+
+## Last Invention: Wetware
+
+Another episode from the excellent [Last Invention][11] podcast on [biological computers][12].
+
+## Monty
+
+Samuel Colvin discusses [Monty][13], a Python interpreter for AI agents written in Rust.
+
+
+[1]: https://newsletter.pragmaticengineer.com/p/dhhs-new-way-of-writing-code
+[2]: https://lexfridman.com/dhh-david-heinemeier-hansson
+[3]: https://newsletter.pragmaticengineer.com/p/mitchell-hashimoto
+[4]: https://newsletter.pragmaticengineer.com/p/building-claude-code-with-boris-cherny
+[5]: https://ccunpacked.dev/
+[6]: https://podcasts.apple.com/us/podcast/wetwear/id1839942885?i=1000760442773
+[7]: https://podcasts.apple.com/us/podcast/sam-altmans-attacker-in-his-own-words/id1839942885?i=1000761713169
+[8]: https://talkpython.fm/episodes/show/541/monty-python-in-rust-for-ai
+[9]: https://netzpolitik.org/
+[10]: https://not-safe-for-work.de/
+[11]: ../last-invention-podcast/index.qmd
+[12]: https://en.wikipedia.org/wiki/Biological_computing
+[13]: https://pydantic.dev/articles/pydantic-monty
+[14]: https://ghostty.org/
+[15]: https://podcasts.apple.com/us/podcast/the-pragmatic-engineer/id1769051199
