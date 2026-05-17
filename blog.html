@@ -70,9 +70,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -122,7 +122,7 @@ window.Quarto = {
 
 </head>
 
-<body class="nav-fixed fullcontent quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
       const mode = bsSheetEl.getAttribute("data-mode");
       const bodyEl = window.document.querySelector("body");
@@ -315,7 +315,9 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(5)</span></div><div class="category" data-category="YWk=">ai <span class="quarto-category-count">(2)</span></div><div class="category" data-category="ZG9jdW1lbnRhcnk=">documentary <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZnBl">fpe <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cG9kY2FzdA==">podcast <span class="quarto-category-count">(1)</span></div><div class="category" data-category="dGls">til <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -345,7 +347,7 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1779062400000" data-listing-file-modified-sort="1779031362821" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="64">
+<div class="quarto-post image-right" data-index="0" data-categories="ZG9jdW1lbnRhcnklMkNhaQ==" data-listing-date-sort="1779062400000" data-listing-file-modified-sort="1779032693031" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="64">
 <div class="thumbnail"><a href="./posts/ai-doc-movie/index.html" class="no-external">
 
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
@@ -355,6 +357,13 @@ window.Quarto = {
 <h3 class="no-anchor listing-title">
 <a href="./posts/ai-doc-movie/index.html" class="no-external">The AI Doc</a>
 </h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('ZG9jdW1lbnRhcnk='); return false;">documentary</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('YWk='); return false;">ai</div>
+
+</div>
 <div class="delink listing-description"><a href="./posts/ai-doc-movie/index.html" class="no-external">
 <p>A documentary about the risks and opportunities of AI</p>
 </a></div>
@@ -367,7 +376,7 @@ May 18, 2026
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1777852800000" data-listing-file-modified-sort="1779031362821" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="247">
+<div class="quarto-post image-right" data-index="1" data-categories="ZnBl" data-listing-date-sort="1777852800000" data-listing-file-modified-sort="1779032693031" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="247">
 <div class="thumbnail"><a href="./posts/fpe-2026-04/index.html" class="no-external">
 
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
@@ -375,8 +384,13 @@ May 18, 2026
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./posts/fpe-2026-04/index.html" class="no-external">FPE: DHH, Mitchell Hashimoto, Building Claude Code, Wetware and Monty</a>
+<a href="./posts/fpe-2026-04/index.html" class="no-external">DHH, Mitchell Hashimoto, Building Claude Code, Wetware and Monty</a>
 </h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('ZnBl'); return false;">fpe</div>
+
+</div>
 <div class="delink listing-description"><a href="./posts/fpe-2026-04/index.html" class="no-external">
 <p>Favorite podcast episodes: April 2026 edition</p>
 </a></div>
@@ -389,7 +403,7 @@ May 4, 2026
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-listing-date-sort="1775779200000" data-listing-file-modified-sort="1779031362821" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="261">
+<div class="quarto-post image-right" data-index="2" data-categories="dGls" data-listing-date-sort="1775779200000" data-listing-file-modified-sort="1779032693031" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="261">
 <div class="thumbnail"><a href="./posts/til-2026-03/index.html" class="no-external">
 
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
@@ -397,8 +411,13 @@ May 4, 2026
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./posts/til-2026-03/index.html" class="no-external">TIL: Quarto, Small Language Models, Self-Hosting</a>
+<a href="./posts/til-2026-03/index.html" class="no-external">Quarto, Small Language Models, Self-Hosting</a>
 </h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('dGls'); return false;">til</div>
+
+</div>
 <div class="delink listing-description"><a href="./posts/til-2026-03/index.html" class="no-external">
 <p>This month I learned: March 2026 edition</p>
 </a></div>
@@ -411,7 +430,7 @@ Apr 10, 2026
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-listing-date-sort="1772409600000" data-listing-file-modified-sort="1779031362821" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="85">
+<div class="quarto-post image-right" data-index="3" data-categories="cG9kY2FzdCUyQ2Fp" data-listing-date-sort="1772409600000" data-listing-file-modified-sort="1779032693031" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="85">
 <div class="thumbnail"><a href="./posts/last-invention-podcast/index.html" class="no-external">
 
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
@@ -421,6 +440,13 @@ Apr 10, 2026
 <h3 class="no-anchor listing-title">
 <a href="./posts/last-invention-podcast/index.html" class="no-external">The Last Invention</a>
 </h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('cG9kY2FzdA=='); return false;">podcast</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('YWk='); return false;">ai</div>
+
+</div>
 <div class="delink listing-description"><a href="./posts/last-invention-podcast/index.html" class="no-external">
 <p>A podcast series about the AI revolution</p>
 </a></div>
@@ -433,7 +459,7 @@ Mar 2, 2026
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-listing-date-sort="1772064000000" data-listing-file-modified-sort="1779031362821" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="87">
+<div class="quarto-post image-right" data-index="4" data-categories="" data-listing-date-sort="1772064000000" data-listing-file-modified-sort="1779032693031" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="87">
 <div class="thumbnail"><a href="./posts/hello-world/index.html" class="no-external">
 
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
@@ -443,6 +469,9 @@ Mar 2, 2026
 <h3 class="no-anchor listing-title">
 <a href="./posts/hello-world/index.html" class="no-external">Hello World</a>
 </h3>
+<div class="listing-categories">
+
+</div>
 <div class="delink listing-description"><a href="./posts/hello-world/index.html" class="no-external">
 <p>My second attempt at blogging regularly.</p>
 </a></div>

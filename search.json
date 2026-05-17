@@ -11,40 +11,40 @@
     "href": "blog.html",
     "title": "Blog",
     "section": "",
-    "text": "The AI Doc\n\n\nA documentary about the risks and opportunities of AI\n\n\n\n\n\nMay 18, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nFPE: DHH, Mitchell Hashimoto, Building Claude Code, Wetware and Monty\n\n\nFavorite podcast episodes: April 2026 edition\n\n\n\n\n\nMay 4, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nTIL: Quarto, Small Language Models, Self-Hosting\n\n\nThis month I learned: March 2026 edition\n\n\n\n\n\nApr 10, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nThe Last Invention\n\n\nA podcast series about the AI revolution\n\n\n\n\n\nMar 2, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nHello World\n\n\nMy second attempt at blogging regularly.\n\n\n\n\n\nFeb 26, 2026\n\n\n\n\n\nNo matching items"
+    "text": "The AI Doc\n\n\n\ndocumentary\n\nai\n\n\n\nA documentary about the risks and opportunities of AI\n\n\n\n\n\nMay 18, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nDHH, Mitchell Hashimoto, Building Claude Code, Wetware and Monty\n\n\n\nfpe\n\n\n\nFavorite podcast episodes: April 2026 edition\n\n\n\n\n\nMay 4, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nQuarto, Small Language Models, Self-Hosting\n\n\n\ntil\n\n\n\nThis month I learned: March 2026 edition\n\n\n\n\n\nApr 10, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nThe Last Invention\n\n\n\npodcast\n\nai\n\n\n\nA podcast series about the AI revolution\n\n\n\n\n\nMar 2, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nHello World\n\n\n\n\n\nMy second attempt at blogging regularly.\n\n\n\n\n\nFeb 26, 2026\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/til-2026-03/index.html",
     "href": "posts/til-2026-03/index.html",
-    "title": "TIL: Quarto, Small Language Models, Self-Hosting",
+    "title": "Quarto, Small Language Models, Self-Hosting",
     "section": "",
     "text": "Use Quarto for presentations and documents; If you’re hardware allows it, run small language models locally using Ollama. Give the latest iteration of Gemma a try; Seriously consider self-hosting if you have basic Linux and DevOps experience. A Linux server, reverse-proxy and container runtime is all you need to get started."
   },
   {
     "objectID": "posts/til-2026-03/index.html#tldr",
     "href": "posts/til-2026-03/index.html#tldr",
-    "title": "TIL: Quarto, Small Language Models, Self-Hosting",
+    "title": "Quarto, Small Language Models, Self-Hosting",
     "section": "",
     "text": "Use Quarto for presentations and documents; If you’re hardware allows it, run small language models locally using Ollama. Give the latest iteration of Gemma a try; Seriously consider self-hosting if you have basic Linux and DevOps experience. A Linux server, reverse-proxy and container runtime is all you need to get started."
   },
   {
     "objectID": "posts/til-2026-03/index.html#quarto",
     "href": "posts/til-2026-03/index.html#quarto",
-    "title": "TIL: Quarto, Small Language Models, Self-Hosting",
+    "title": "Quarto, Small Language Models, Self-Hosting",
     "section": "Quarto",
     "text": "Quarto\nExperimenting with Quarto has been on my list for a long time. This month I finally got to use it to create revealjs powered slides and a typst based document. I authored both documents in VSCode using the official Quarto extension and won’t go back."
   },
   {
     "objectID": "posts/til-2026-03/index.html#small-language-models",
     "href": "posts/til-2026-03/index.html#small-language-models",
-    "title": "TIL: Quarto, Small Language Models, Self-Hosting",
+    "title": "Quarto, Small Language Models, Self-Hosting",
     "section": "Small Language Models",
     "text": "Small Language Models\nWith the release of Gemma 4, I’ve updated my Ollama installation and took several small, open-source language models (Granite 4, Qwen 3.5, Gemma 4 and SmolLM v3) for a ride. My current hardware setup (MacBook Air M2 with 16 RAM) only allows me to run the tiny versions of those models. While all of them work great for prototyping AI-powered applications, they don’t yet replace frontier models for more advanced tasks. I might just need to invest in beefier hardware to make that happen."
   },
   {
     "objectID": "posts/til-2026-03/index.html#selfhosting",
     "href": "posts/til-2026-03/index.html#selfhosting",
-    "title": "TIL: Quarto, Small Language Models, Self-Hosting",
+    "title": "Quarto, Small Language Models, Self-Hosting",
     "section": "Selfhosting",
     "text": "Selfhosting\nI went down the self-hosting and homelab rabbit hole after reading Michael Kennedy’s Talk Python in Production book. After researching self-hosted PaaS solutions, I tinkered with disco on a super cheap Hetzner server to host apps over at byteCare. Currently, I am implementing a custom solution based on Caddy, Docker Compose and Zitadel. Stay tuned, this might deserve its own blog post."
   },
@@ -72,49 +72,49 @@
   {
     "objectID": "posts/fpe-2026-04/index.html",
     "href": "posts/fpe-2026-04/index.html",
-    "title": "FPE: DHH, Mitchell Hashimoto, Building Claude Code, Wetware and Monty",
+    "title": "DHH, Mitchell Hashimoto, Building Claude Code, Wetware and Monty",
     "section": "",
     "text": "I have been an avid podcast listener for more than a decade. When I began listening, the podcast world was small: I was subscribing to a handful of indie podcasts focusing on technology, journalism, nonsense and everything in between. Episodes were released occasionally and it was easy to keep up with the shows. Today, podcasts are everywhere, and it’s much harder to keep up. The Favorite Podcast Episodes series is an attempt to recommend episodes actually worth listening to."
   },
   {
     "objectID": "posts/fpe-2026-04/index.html#tldr",
     "href": "posts/fpe-2026-04/index.html#tldr",
-    "title": "FPE: DHH, Mitchell Hashimoto, Building Claude Code, Wetware and Monty",
+    "title": "DHH, Mitchell Hashimoto, Building Claude Code, Wetware and Monty",
     "section": "TL;DR",
     "text": "TL;DR\n\nDHH on PE (c.f. DHH on Lex Friedman)\nMitchell Hashimoto on PE\nBuilding Claude Code with Boris Cherny on PE\nLast Invention: New episode on Wetware and an interview with Sam Altman’s attacker\nMonty: Python in Rust for AI with Samuel Colvin on Talk Python To Me"
   },
   {
     "objectID": "posts/fpe-2026-04/index.html#dhh-on-pe",
     "href": "posts/fpe-2026-04/index.html#dhh-on-pe",
-    "title": "FPE: DHH, Mitchell Hashimoto, Building Claude Code, Wetware and Monty",
+    "title": "DHH, Mitchell Hashimoto, Building Claude Code, Wetware and Monty",
     "section": "DHH on PE",
     "text": "DHH on PE\nConversations with David Heinerman Hanson (DHH) are always worth listening to. In this episode on the Pragmatic Engineer’s (PE) podcast, DHH talks about his journey agentic engineering journey."
   },
   {
     "objectID": "posts/fpe-2026-04/index.html#mitchell-hashimoto-on-pe",
     "href": "posts/fpe-2026-04/index.html#mitchell-hashimoto-on-pe",
-    "title": "FPE: DHH, Mitchell Hashimoto, Building Claude Code, Wetware and Monty",
+    "title": "DHH, Mitchell Hashimoto, Building Claude Code, Wetware and Monty",
     "section": "Mitchell Hashimoto on PE",
     "text": "Mitchell Hashimoto on PE\nAnother feature from the PE podcast with Mitchel Hashimoto about the history of Hashicorp, the attitude of major cloud providers, how he uses AI and Ghostty."
   },
   {
     "objectID": "posts/fpe-2026-04/index.html#building-claude-code",
     "href": "posts/fpe-2026-04/index.html#building-claude-code",
-    "title": "FPE: DHH, Mitchell Hashimoto, Building Claude Code, Wetware and Monty",
+    "title": "DHH, Mitchell Hashimoto, Building Claude Code, Wetware and Monty",
     "section": "Building Claude Code",
     "text": "Building Claude Code\nAn interview with the core developer of Claude Code - especially interesting because of the recent Claude Code leak."
   },
   {
     "objectID": "posts/fpe-2026-04/index.html#last-invention-wetware",
     "href": "posts/fpe-2026-04/index.html#last-invention-wetware",
-    "title": "FPE: DHH, Mitchell Hashimoto, Building Claude Code, Wetware and Monty",
+    "title": "DHH, Mitchell Hashimoto, Building Claude Code, Wetware and Monty",
     "section": "Last Invention: Wetware",
     "text": "Last Invention: Wetware\nAnother episode from the excellent Last Invention podcast on biological computers."
   },
   {
     "objectID": "posts/fpe-2026-04/index.html#monty",
     "href": "posts/fpe-2026-04/index.html#monty",
-    "title": "FPE: DHH, Mitchell Hashimoto, Building Claude Code, Wetware and Monty",
+    "title": "DHH, Mitchell Hashimoto, Building Claude Code, Wetware and Monty",
     "section": "Monty",
     "text": "Monty\nSamuel Colvin discusses Monty, a Python interpreter for AI agents written in Rust."
   },
