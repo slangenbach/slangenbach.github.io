@@ -1,8 +1,8 @@
 ---
-title: "TIL: "
+title: ""
 description: "This month I learned: April 2026 edition"
 date: "YYYY-MM-DD"
-tags: [til]
+categories: [til]
 draft: true
 ---
 

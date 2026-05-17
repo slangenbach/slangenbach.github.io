@@ -2,7 +2,7 @@
 title: "Hello World"
 description: "My second attempt at blogging regularly."
 date: "2026-02-26"
-tags: [hello-world]
+categories: []
 draft: false
 ---
 

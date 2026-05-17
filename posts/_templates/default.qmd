@@ -2,7 +2,7 @@
 title: ""
 description: ""
 date: "YYYY-MM-DD"
-tags: []
+categories: []
 draft: true
 ---
 

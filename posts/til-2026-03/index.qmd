@@ -1,8 +1,8 @@
 ---
-title: "TIL: Quarto, Small Language Models, Self-Hosting"
+title: "Quarto, Small Language Models, Self-Hosting"
 description: "This month I learned: March 2026 edition"
 date: "2026-04-10"
-tags: [til, quarto, small-language-models, self-hosting]
+categories: [til]
 draft: false
 ---
 

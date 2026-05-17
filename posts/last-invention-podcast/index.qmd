@@ -2,7 +2,7 @@
 title: "The Last Invention"
 description: "A podcast series about the AI revolution"
 date: "2026-03-02"
-tags: [podcast, ai]
+categories: [podcast, ai]
 draft: false
 ---
 

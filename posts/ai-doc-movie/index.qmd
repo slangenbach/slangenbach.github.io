@@ -2,7 +2,7 @@
 title: "The AI Doc"
 description: "A documentary about the risks and opportunities of AI"
 date: "2026-05-18"
-tags: [documentary, ai]
+categories: [documentary, ai]
 draft: false
 ---
 

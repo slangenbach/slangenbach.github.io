@@ -1,8 +1,8 @@
 ---
-title: "FPE: "
+title: ""
 description: "Favorite podcast episodes: <MONTH> <YEAR> edition"
 date: "2026-05-30"
-tags: [fpe]
+categories: [fpe]
 draft: true
 ---
 
