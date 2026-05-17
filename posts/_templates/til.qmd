@@ -1,6 +1,6 @@
 ---
 title: "TIL: "
-description: "This month I learned <MONTH> <YEAR> edition"
+description: "This month I learned: <MONTH> <YEAR> edition"
 date: "YYYY-MM-DD"
 tags: [til]
 draft: true

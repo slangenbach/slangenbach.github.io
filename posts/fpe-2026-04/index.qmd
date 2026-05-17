@@ -1,6 +1,6 @@
 ---
 title: "FPE: DHH, Mitchell Hashimoto, Building Claude Code, Wetware and Monty"
-description: "Favorite podcast episodes April 2026 edition"
+description: "Favorite podcast episodes: April 2026 edition"
 date: "2026-05-04"
 tags: [fpe]
 draft: false

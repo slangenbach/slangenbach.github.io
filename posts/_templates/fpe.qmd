@@ -1,6 +1,6 @@
 ---
 title: "FPE: "
-description: "Favorite podcast episodes <MONTH> <YEAR> edition"
+description: "Favorite podcast episodes: <MONTH> <YEAR> edition"
 date: "YYYY-MM-DD"
 tags: [fpe]
 draft: true
