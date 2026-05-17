@@ -1,0 +1,25 @@
+---
+title: "TIL: "
+description: "This month I learned: April 2026 edition"
+date: "YYYY-MM-DD"
+tags: [til]
+draft: true
+---
+
+## TL;DR
+
+- 1Password developer features: [SSH][1] Agent and [Environments][2]
+- Custom agents in GitHub Copilot
+
+## 1Password developer features
+
+- tbd
+
+## Custom agents in GitHub Copilot
+
+- tbd
+
+
+[1]: https://www.1password.dev/ssh/agent
+[2]: https://www.1password.dev/environments
+[3]: https://protonpass.github.io/pass-cli/commands/ssh-agent/
