@@ -1,7 +1,13 @@
 [
   {
+    "listing": "/talks.html",
+    "items": []
+  },
+  {
     "listing": "/blog.html",
     "items": [
+      "/posts/cult-repo-movies/index.html",
+      "/posts/fpe-2026-05/index.html",
       "/posts/ai-doc-movie/index.html",
       "/posts/fpe-2026-04/index.html",
       "/posts/til-2026-03/index.html",

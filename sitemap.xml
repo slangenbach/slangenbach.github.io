@@ -1,39 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://stefan.langenbach.online/privacy.html</loc>
-    <lastmod>2026-05-17T15:44:53.031Z</lastmod>
+    <loc>https://stefan.langenbach.online/index.html</loc>
+    <lastmod>2026-07-14T16:34:45.168Z</lastmod>
   </url>
   <url>
-    <loc>https://stefan.langenbach.online/blog.html</loc>
-    <lastmod>2026-05-17T15:44:53.031Z</lastmod>
+    <loc>https://stefan.langenbach.online/talks.html</loc>
+    <lastmod>2026-07-14T16:34:45.169Z</lastmod>
   </url>
   <url>
     <loc>https://stefan.langenbach.online/posts/til-2026-03/index.html</loc>
-    <lastmod>2026-05-17T15:44:53.031Z</lastmod>
+    <lastmod>2026-07-14T16:34:45.169Z</lastmod>
   </url>
   <url>
-    <loc>https://stefan.langenbach.online/posts/hello-world/index.html</loc>
-    <lastmod>2026-05-17T15:44:53.031Z</lastmod>
-  </url>
-  <url>
-    <loc>https://stefan.langenbach.online/posts/last-invention-podcast/index.html</loc>
-    <lastmod>2026-05-17T15:44:53.031Z</lastmod>
-  </url>
-  <url>
-    <loc>https://stefan.langenbach.online/imprint.html</loc>
-    <lastmod>2026-05-17T15:44:53.031Z</lastmod>
+    <loc>https://stefan.langenbach.online/posts/cult-repo-movies/index.html</loc>
+    <lastmod>2026-07-14T16:34:45.169Z</lastmod>
   </url>
   <url>
     <loc>https://stefan.langenbach.online/posts/fpe-2026-04/index.html</loc>
-    <lastmod>2026-05-17T15:44:53.031Z</lastmod>
+    <lastmod>2026-07-14T16:34:45.169Z</lastmod>
+  </url>
+  <url>
+    <loc>https://stefan.langenbach.online/privacy.html</loc>
+    <lastmod>2026-07-14T16:34:45.169Z</lastmod>
+  </url>
+  <url>
+    <loc>https://stefan.langenbach.online/imprint.html</loc>
+    <lastmod>2026-07-14T16:34:45.168Z</lastmod>
   </url>
   <url>
     <loc>https://stefan.langenbach.online/posts/ai-doc-movie/index.html</loc>
-    <lastmod>2026-05-17T15:44:53.031Z</lastmod>
+    <lastmod>2026-07-14T16:34:45.169Z</lastmod>
   </url>
   <url>
-    <loc>https://stefan.langenbach.online/index.html</loc>
-    <lastmod>2026-05-17T15:44:53.031Z</lastmod>
+    <loc>https://stefan.langenbach.online/posts/hello-world/index.html</loc>
+    <lastmod>2026-07-14T16:34:45.169Z</lastmod>
+  </url>
+  <url>
+    <loc>https://stefan.langenbach.online/posts/last-invention-podcast/index.html</loc>
+    <lastmod>2026-07-14T16:34:45.169Z</lastmod>
+  </url>
+  <url>
+    <loc>https://stefan.langenbach.online/posts/fpe-2026-05/index.html</loc>
+    <lastmod>2026-07-14T16:34:45.169Z</lastmod>
+  </url>
+  <url>
+    <loc>https://stefan.langenbach.online/blog.html</loc>
+    <lastmod>2026-07-14T16:34:45.168Z</lastmod>
   </url>
 </urlset>
