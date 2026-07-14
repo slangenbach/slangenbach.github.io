@@ -9,6 +9,8 @@ website:
         text: Home
       - href: blog.qmd
         text: Blog
+      - href: talks.qmd
+        text: Talks
   draft-mode: unlinked
   page-footer:
     border: false

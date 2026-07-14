@@ -1,0 +1,11 @@
+---
+title: Talks
+listing:
+    contents: talks
+    sort: "date desc"
+    type: table
+    fields: [date, title, subtitle]
+    categories: false
+    filter-ui: false
+    sort-ui: false
+---
