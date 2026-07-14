@@ -1,16 +1,38 @@
 ---
-title: ""
-description: "Favorite podcast episodes: <MONTH> <YEAR> edition"
+title: "Pi, Data-Intensive Applications and OpenCode"
+description: "Favorite podcast episodes: May 2026 edition"
 date: "2026-05-30"
 categories: [fpe]
-draft: true
+draft: false
 ---
 
 ## TL;DR
 
 - [Building Pi][1] with Mario Zechner and Armin Ronacher
-- [Designing Data-intensive Applications][2] with Martin Kleppmann
+- [Designing Data-Intensive Applications][2] with Martin Kleppmann
+- Building [OpenCode][3] with Dax Raad
+
+## Building Pi
+
+I really liked this episode from the [Pragmatic Engineer Podcast][9]. Mario's approach to building a simple, stable and reliable coding agent is a very welcome breath of fresh air in the overhyped AI coding tools landscape.
+
+## Designing Data-Intensive Applications
+
+[Martin Kleppmann's][4] book [Designing Data-Intensive Applications][5] is considered a classic in software development literature. I personally own a copy and am currently reading through it. While it was great to hear that Martin has published the [second edition][6] of the book, his thoughts regarding [local-first software][7] really caught my interest. If you want to find out more about the local-first concept, check out [Cult Repo's][8] mini documentation:
+
+{{< video https://www.youtube.com/embed/10d8HxS4y_g?si=l-4vDyz24h9x_r_H >}}
+
+## Building OpenCode
+
+A great look behind the scenes of developing OpenCode, combined with a realistic take on using AI for software development.
 
 
 [1]: https://newsletter.pragmaticengineer.com/p/building-pi-and-what-makes-self-modifying
 [2]: https://newsletter.pragmaticengineer.com/p/designing-data-intensive-applications
+[3]: https://newsletter.pragmaticengineer.com/p/opencode
+[4]: https://martin.kleppmann.com/
+[5]: https://dataintensive.net/
+[6]: https://www.oreilly.com/library/view/designing-data-intensive-applications/9781098119058/
+[7]: https://lofi.so/
+[8]: ../cult-repo-movies/index.qmd
+[9]: https://newsletter.pragmaticengineer.com/
