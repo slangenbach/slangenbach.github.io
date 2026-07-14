@@ -1,0 +1,18 @@
+---
+title: "Cult Repo tech documentaries"
+description: "The stories behind the technology we use and love"
+date: "2026-06-05"
+categories: [cult-repo, documentary]
+draft: false
+---
+
+I first discovered [Cult Repo][1] through the [Node JS][2] and [Python][3] documentaries back in 2024 and 2025. What I didn't know, was that they have been creating software related documentaries (Kubernetes, Prometheus, Ruby, etc.) since 2018. Their most recent movies are about [C++][4] and Java's [Spring Boot Framework][5]. And although I never was a C++, nor Java developer, I really enjoyed both movies.
+
+{{< video https://www.youtube.com/embed/lI7tMxzSJ7w?si=BwoYIOiAmyMyjsOZ >}}
+
+
+[1]: https://www.cultrepo.com/
+[2]: https://www.youtube.com/watch?v=LB8KwiiUGy0&t=1s
+[3]: https://youtu.be/GfH4QL4VqJ0
+[4]: https://youtu.be/lI7tMxzSJ7w
+[5]: https://youtu.be/0Gb1z-2SjHY
