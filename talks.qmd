@@ -5,6 +5,8 @@ listing:
     sort: "date desc"
     type: table
     fields: [date, title, subtitle]
+    field-display-names:
+      subtitle: "Conference"
     categories: false
     filter-ui: false
     sort-ui: false
