@@ -2,7 +2,7 @@
 title: "Quarto, Small Language Models, Self-Hosting"
 description: "This month I learned: March 2026 edition"
 date: "2026-04-10"
-categories: [til]
+categories: [this-month-i-learned]
 draft: false
 ---
 

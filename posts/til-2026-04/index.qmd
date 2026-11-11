@@ -2,7 +2,7 @@
 title: ""
 description: "This month I learned: April 2026 edition"
 date: "YYYY-MM-DD"
-categories: [til]
+categories: [this-month-i-learned]
 draft: true
 ---
 

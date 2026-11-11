@@ -2,7 +2,7 @@
 title: "Pi, Data-Intensive Applications and OpenCode"
 description: "Favorite podcast episodes: May 2026 edition"
 date: "2026-05-30"
-categories: [fpe]
+categories: [favorite-podcast-episodes]
 draft: false
 ---
 
