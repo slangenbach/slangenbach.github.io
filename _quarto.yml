@@ -1,12 +1,25 @@
 project:
   type: website
+  render:
+    - "*.qmd"
+    - "**/*.qmd"
+  resources:
+    - assets/fonts/*
 
 website:
+  title: "Stefan Langenbach"
+  description: "Notes from building AI platforms: monthly learnings, podcast picks, talks and the occasional find from around the web."
+  site-url: https://stefan.langenbach.online
+  image: assets/images/profile.jpg
   search: false
+  open-graph: true
+  twitter-card: true
   navbar:
     left:
       - href: index.qmd
         text: Home
+      - href: about.qmd
+        text: About
       - href: blog.qmd
         text: Blog
       - href: talks.qmd
@@ -21,12 +34,19 @@ website:
         href: imprint.qmd
       - text: "Privacy Policy"
         href: privacy.qmd
+      - text: "RSS"
+        href: blog.xml
 
 format:
   html:
     theme:
-      light: [default, assets/styles/light.scss]
-      dark: [default, assets/styles/dark.scss]
+      light: [default, assets/styles/base.scss, assets/styles/light.scss]
+      dark: [default, assets/styles/base.scss, assets/styles/dark.scss]
+    respect-user-color-scheme: true
+    highlight-style: a11y
+    date-format: "YYYY-MM-DD"
+    grid:
+      body-width: 720px
 
 execute:
   freeze: auto

@@ -1,0 +1,283 @@
+/*-- scss:defaults --*/
+// "Engineer's notebook" theme: shared by light.scss and dark.scss.
+// Colours are set in light.scss / dark.scss; everything here uses !default so
+// those files win.
+
+// Palette (light fallbacks)
+$paper: #faf8f3 !default;
+$ink: #1f2328 !default;
+$ink-muted: #6b665f !default;
+$rule: #e4dfd5 !default;
+$accent: #a3421c !default;
+$code-paper: #f1ede4 !default;
+
+// Bootstrap mapping
+$body-bg: $paper !default;
+$body-color: $ink !default;
+$link-color: $accent !default;
+$navbar-bg: $paper !default;
+$navbar-fg: $ink-muted !default;
+$navbar-hl: $ink !default;
+$footer-bg: $paper !default;
+$footer-fg: $ink-muted !default;
+$border-color: $rule !default;
+$text-muted: $ink-muted !default;
+$code-color: $ink !default;
+$code-bg: $code-paper !default;
+$code-block-bg: $code-paper !default;
+
+// Typography
+$font-family-serif: "Source Serif 4", "Iowan Old Style", "Charter", Georgia, serif;
+$font-family-sans-serif: $font-family-serif;
+$font-family-monospace: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+$headings-font-family: $font-family-serif;
+$headings-font-weight: 620;
+$font-size-root: 18px;
+$line-height-base: 1.7;
+$link-decoration: underline;
+$link-hover-decoration: underline;
+
+/*-- scss:rules --*/
+
+// ---------- Self-hosted fonts (no third-party requests, GDPR-friendly) ----------
+@font-face {
+  font-family: "Source Serif 4";
+  src: url("/assets/fonts/SourceSerif4-Roman.woff") format("woff");
+  font-weight: 200 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Source Serif 4";
+  src: url("/assets/fonts/SourceSerif4-Italic.woff") format("woff");
+  font-weight: 200 900;
+  font-style: italic;
+  font-display: swap;
+}
+@each $w, $name in (400: "Regular", 500: "Medium", 700: "Bold") {
+  @font-face {
+    font-family: "JetBrains Mono";
+    src: url("/assets/fonts/JetBrainsMono-#{$name}.woff2") format("woff2");
+    font-weight: $w;
+    font-style: normal;
+    font-display: swap;
+  }
+}
+
+// Shared "label" look: small monospace metadata, the notebook's margin notes.
+%mono-label {
+  font-family: $font-family-monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.02em;
+  color: $ink-muted;
+}
+
+body {
+  font-optical-sizing: auto;
+  font-kerning: normal;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+// ---------- Links ----------
+a {
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
+  text-decoration-color: rgba($accent, 0.4);
+  transition: text-decoration-color 0.15s ease, color 0.15s ease;
+  &:hover { text-decoration-color: $accent; }
+}
+
+// ---------- Headings ----------
+h1, h2, h3, h4, .title {
+  letter-spacing: -0.012em;
+  line-height: 1.25;
+  color: $ink;
+}
+h1.title { font-size: 2.3rem; font-weight: 650; }
+main h1:not(.title), main h2 {
+  border-bottom: none;
+  margin-top: 2.4rem;
+  font-size: 1.55rem;
+}
+main h3 { font-size: 1.2rem; margin-top: 1.8rem; }
+
+// ---------- Navbar ----------
+.navbar {
+  border-bottom: 1px solid $rule;
+  box-shadow: none;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+  .navbar-title {
+    font-family: $font-family-serif;
+    font-weight: 650;
+    font-size: 1.1rem;
+    color: $ink;
+    letter-spacing: -0.01em;
+  }
+  .nav-link, .menu-text {
+    font-family: $font-family-monospace;
+    font-size: 0.8rem;
+  }
+  .nav-link.active .menu-text { color: $accent; }
+  .quarto-color-scheme-toggle .bi::before { opacity: 0.7; }
+}
+
+// ---------- Title block / post metadata ----------
+.quarto-title-meta-heading,
+.quarto-title-meta-contents,
+.listing-date,
+.listing-reading-time {
+  @extend %mono-label;
+}
+.quarto-title .subtitle,
+.quarto-title-block .description {
+  font-style: italic;
+  color: $ink-muted;
+  font-size: 1.1rem;
+}
+.quarto-title .quarto-categories,
+.quarto-title-block .quarto-categories { margin-top: 0.6rem; }
+
+.quarto-category,
+.listing-category,
+.quarto-listing-category .category {
+  font-family: $font-family-monospace;
+  font-size: 0.68rem !important;
+  text-transform: lowercase !important;
+  border: 1px solid $rule !important;
+  border-radius: 3px !important;
+  background: transparent !important;
+  color: $ink-muted !important;
+  padding: 0.1em 0.5em !important;
+  opacity: 1 !important;
+  &:hover { border-color: $accent !important; color: $accent !important; }
+}
+
+// ---------- Body text ----------
+main p, main li { hyphens: auto; }
+blockquote, .blockquote {
+  border-left: 2px solid $accent;
+  color: $ink-muted;
+  font-style: italic;
+  padding-left: 1rem;
+}
+hr { border-color: $rule; opacity: 1; }
+::selection { background: rgba($accent, 0.18); }
+
+// ---------- Code ----------
+code { font-size: 0.86em; }
+p code:not(.sourceCode), li code:not(.sourceCode) {
+  background: $code-paper;
+  color: $ink;
+  padding: 0.1em 0.35em;
+  border-radius: 3px;
+}
+div.sourceCode, pre.sourceCode {
+  border: 1px solid $rule;
+  border-radius: 4px;
+  font-size: 0.85rem;
+}
+
+// ---------- Callouts ----------
+.callout { border-radius: 4px; border-color: $rule; }
+
+// ---------- Footer ----------
+.nav-footer {
+  border-top: 1px solid $rule;
+  font-family: $font-family-monospace;
+  font-size: 0.72rem;
+  a { color: $ink-muted; text-decoration: none; white-space: nowrap; }
+  a:hover { color: $accent; }
+  .nav-footer-center { flex-wrap: wrap; gap: 0 0.25rem; }
+  .footer-items { flex-wrap: nowrap; }
+}
+
+// ---------- Home page (about: trestles) ----------
+.quarto-about-trestles {
+  .about-entity .about-image { border: 1px solid $rule; }
+  .about-entity h1.title { font-size: 2.1rem; }
+  .about-entity .about-links .about-link {
+    font-family: $font-family-monospace;
+    font-size: 0.75rem;
+    border: 1px solid $rule;
+    border-radius: 3px;
+    color: $ink-muted;
+    text-decoration: none;
+    &:hover { border-color: $accent; color: $accent; }
+  }
+  .about-contents { padding-top: 0.5rem; }
+  // Quarto sets the photo to a fixed 20em inline, which overflows narrow screens.
+  @media (max-width: 767.98px) {
+    .about-entity .about-image {
+      width: min(14rem, 100%) !important;
+      height: auto !important;
+      aspect-ratio: 1 / 1;
+    }
+  }
+}
+.home-lead {
+  font-size: 1.3rem;
+  line-height: 1.45;
+  color: $ink;
+  margin: 0 0 1.25rem;
+}
+
+// ---------- Blog listing (Quarto's built-in "default" listing, restyled) ----------
+.quarto-listing-default .quarto-post {
+  display: grid;
+  grid-template-columns: 6.5rem 1fr;
+  gap: 0.25rem 1.25rem;
+  margin-bottom: 0;
+  padding: 1.05rem 0;
+  border-bottom: 1px dashed $rule;
+  &:last-child { border-bottom: none; }
+
+  .thumbnail { display: none; }
+  .metadata {
+    grid-column: 1;
+    grid-row: 1;
+    flex-basis: auto;
+    padding: 0.32rem 0 0;
+    a { text-decoration: none; }
+  }
+  .body { grid-column: 2; grid-row: 1; padding: 0; }
+  .body .listing-title {
+    font-size: 1.15rem;
+    font-weight: 600;
+    line-height: 1.35;
+    margin: 0 0 0.2rem;
+    a { color: $ink; text-decoration: none; font-weight: inherit; }
+    a:hover { color: $accent; }
+  }
+  .listing-description {
+    color: $ink-muted;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    p { margin: 0.2rem 0 0; }
+    a { color: inherit; text-decoration: none; }
+  }
+  .listing-categories { margin: 0.3rem 0 0.2rem; }
+  .listing-category { margin-right: 0.3rem; cursor: pointer; }
+
+  @media (max-width: 575.98px) {
+    grid-template-columns: 1fr;
+    .metadata { grid-row: 1; padding-top: 0; }
+    .body { grid-column: 1; grid-row: 2; }
+  }
+}
+
+// Category sidebar on /blog
+.quarto-listing-category-title { @extend %mono-label; }
+.quarto-listing-category .category {
+  border: none !important;
+  padding: 0.1em 0 !important;
+  font-size: 0.75rem !important;
+}
+.quarto-listing-category .category.active { color: $accent !important; }
+
+// Talks table
+.quarto-listing-table {
+  th { @extend %mono-label; font-weight: 500; border-bottom-color: $rule; }
+  td { border-color: $rule; }
+}

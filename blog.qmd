@@ -1,8 +1,10 @@
 ---
 title: "Blog"
+description: "Monthly learnings, podcast picks and the occasional find from around the web."
 listing:
   contents: posts
   sort: "date desc"
   type: default
   categories: true
+  feed: true
 ---
