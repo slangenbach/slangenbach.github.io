@@ -2,7 +2,7 @@
 title: ""
 description: "Favorite podcast episodes: <MONTH> <YEAR> edition"
 date: "YYYY-MM-DD"
-categories: [fpe]
+categories: [favorite-podcast-episodes]
 draft: true
 ---
 
