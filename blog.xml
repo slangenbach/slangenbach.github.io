@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Stefan Langenbach</title>
+<link>https://stefan.langenbach.online/blog.html</link>
+<atom:link href="https://stefan.langenbach.online/blog.xml" rel="self" type="application/rss+xml"/>
+<description>Monthly learnings, podcast picks and the occasional find from around the web.</description>
+<image>
+<url>https://stefan.langenbach.online/assets/images/profile.jpg</url>
+<title>Stefan Langenbach</title>
+<link>https://stefan.langenbach.online/blog.html</link>
+<height>105</height>
+<width>144</width>
+</image>
+<generator>quarto-1.11.9</generator>
+<lastBuildDate>Fri, 05 Jun 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Cult Repo tech documentaries</title>
+  <link>https://stefan.langenbach.online/posts/cult-repo-movies/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>I first discovered <a href="https://www.cultrepo.com/">Cult Repo</a> through the <a href="https://www.youtube.com/watch?v=LB8KwiiUGy0&amp;t=1s">Node JS</a> and <a href="https://youtu.be/GfH4QL4VqJ0">Python</a> documentaries back in 2024 and 2025. What I didn’t know, was that they have been creating software related documentaries (Kubernetes, Prometheus, Ruby, etc.) since 2018. Their most recent movies are about <a href="https://youtu.be/lI7tMxzSJ7w">C++</a> and Java’s <a href="https://youtu.be/0Gb1z-2SjHY">Spring Boot Framework</a>. And although I never was a C++, nor Java developer, I really enjoyed both movies.</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/lI7tMxzSJ7w?si=BwoYIOiAmyMyjsOZ" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+
+
+
+ ]]></description>
+  <category>cult-repo</category>
+  <category>documentary</category>
+  <guid>https://stefan.langenbach.online/posts/cult-repo-movies/</guid>
+  <pubDate>Fri, 05 Jun 2026 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Pi, Data-Intensive Applications and OpenCode</title>
+  <link>https://stefan.langenbach.online/posts/fpe-2026-05/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<ul>
+<li><a href="https://newsletter.pragmaticengineer.com/p/building-pi-and-what-makes-self-modifying">Building Pi</a> with Mario Zechner and Armin Ronacher</li>
+<li><a href="https://newsletter.pragmaticengineer.com/p/designing-data-intensive-applications">Designing Data-Intensive Applications</a> with Martin Kleppmann</li>
+<li>Building <a href="https://newsletter.pragmaticengineer.com/p/opencode">OpenCode</a> with Dax Raad</li>
+</ul>
+</section>
+<section id="building-pi" class="level2">
+<h2 class="anchored" data-anchor-id="building-pi">Building Pi</h2>
+<p>I really liked this episode from the <a href="https://newsletter.pragmaticengineer.com/">Pragmatic Engineer Podcast</a>. Mario’s approach to building a simple, stable and reliable coding agent is a very welcome breath of fresh air in the overhyped AI coding tools landscape.</p>
+</section>
+<section id="designing-data-intensive-applications" class="level2">
+<h2 class="anchored" data-anchor-id="designing-data-intensive-applications">Designing Data-Intensive Applications</h2>
+<p><a href="https://martin.kleppmann.com/">Martin Kleppmann’s</a> book <a href="https://dataintensive.net/">Designing Data-Intensive Applications</a> is considered a classic in software development literature. I personally own a copy and am currently reading through it. While it was great to hear that Martin has published the <a href="https://www.oreilly.com/library/view/designing-data-intensive-applications/9781098119058/">second edition</a> of the book, his thoughts regarding <a href="https://lofi.so/">local-first software</a> really caught my interest. If you want to find out more about the local-first concept, check out <a href="../../posts/cult-repo-movies/index.html">Cult Repo’s</a> mini documentation:</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/10d8HxS4y_g?si=l-4vDyz24h9x_r_H" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+</section>
+<section id="building-opencode" class="level2">
+<h2 class="anchored" data-anchor-id="building-opencode">Building OpenCode</h2>
+<p>A great look behind the scenes of developing OpenCode, combined with a realistic take on using AI for software development.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>fpe</category>
+  <guid>https://stefan.langenbach.online/posts/fpe-2026-05/</guid>
+  <pubDate>Sat, 30 May 2026 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>The AI Doc</title>
+  <link>https://stefan.langenbach.online/posts/ai-doc-movie/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>In his recent <a href="https://www.samharris.org/podcasts/making-sense-episodes/469-escaping-an-anti-human-future">conversation with Sam Harris</a>, Tristan Harris, which you might recall from <a href="https://thesocialdilemma.com/">The Social Dilemma</a>, discusses the documentary <a href="https://www.imdb.com/title/tt39150120/">The AI Doc</a>. The movie investigates the risk and opportunities of AI by interviewing various researchers, CEOs and staff of the major AI labs. AFAIK the move is not yet available online, but the trailer already looks great.</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/HD22S5PEOP0" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+
+
+
+ ]]></description>
+  <category>documentary</category>
+  <category>ai</category>
+  <guid>https://stefan.langenbach.online/posts/ai-doc-movie/</guid>
+  <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>DHH, Mitchell Hashimoto, Building Claude Code, Wetware and Monty</title>
+  <link>https://stefan.langenbach.online/posts/fpe-2026-04/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>I have been an avid podcast listener for more than a decade. When I began listening, the podcast world was small: I was subscribing to a handful of indie podcasts focusing on technology, <a href="https://netzpolitik.org/">journalism</a>, <a href="https://not-safe-for-work.de/">nonsense</a> and everything in between. Episodes were released occasionally and it was easy to keep up with the shows. Today, podcasts are everywhere, and it’s much harder to keep up. The <em>Favorite Podcast Episodes</em> series is an attempt to recommend episodes actually worth listening to.</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<ul>
+<li><a href="https://newsletter.pragmaticengineer.com/p/dhhs-new-way-of-writing-code">DHH on PE</a> (c.f. <a href="https://lexfridman.com/dhh-david-heinemeier-hansson">DHH on Lex Friedman</a>)</li>
+<li><a href="https://newsletter.pragmaticengineer.com/p/mitchell-hashimoto">Mitchell Hashimoto on PE</a></li>
+<li><a href="https://newsletter.pragmaticengineer.com/p/building-claude-code-with-boris-cherny">Building Claude Code</a> with Boris Cherny on PE</li>
+<li>Last Invention: New episode on <a href="https://podcasts.apple.com/us/podcast/wetwear/id1839942885?i=1000760442773">Wetware</a> and an interview with <a href="https://podcasts.apple.com/us/podcast/sam-altmans-attacker-in-his-own-words/id1839942885?i=1000761713169">Sam Altman’s attacker</a></li>
+<li><a href="https://talkpython.fm/episodes/show/541/monty-python-in-rust-for-ai">Monty: Python in Rust for AI</a> with Samuel Colvin on Talk Python To Me</li>
+</ul>
+</section>
+<section id="dhh-on-pe" class="level2">
+<h2 class="anchored" data-anchor-id="dhh-on-pe">DHH on PE</h2>
+<p>Conversations with David Heinerman Hanson (DHH) are always worth listening to. In this episode on the <a href="https://podcasts.apple.com/us/podcast/the-pragmatic-engineer/id1769051199">Pragmatic Engineer’s (PE)</a> podcast, DHH talks about his journey agentic engineering journey.</p>
+</section>
+<section id="mitchell-hashimoto-on-pe" class="level2">
+<h2 class="anchored" data-anchor-id="mitchell-hashimoto-on-pe">Mitchell Hashimoto on PE</h2>
+<p>Another feature from the <a href="https://podcasts.apple.com/us/podcast/the-pragmatic-engineer/id1769051199">PE</a> podcast with Mitchel Hashimoto about the history of Hashicorp, the attitude of major cloud providers, how he uses AI and <a href="https://ghostty.org/">Ghostty</a>.</p>
+</section>
+<section id="building-claude-code" class="level2">
+<h2 class="anchored" data-anchor-id="building-claude-code">Building Claude Code</h2>
+<p>An interview with the core developer of Claude Code - especially interesting because of the recent <a href="https://ccunpacked.dev/">Claude Code leak</a>.</p>
+</section>
+<section id="last-invention-wetware" class="level2">
+<h2 class="anchored" data-anchor-id="last-invention-wetware">Last Invention: Wetware</h2>
+<p>Another episode from the excellent <a href="../../posts/last-invention-podcast/index.html">Last Invention</a> podcast on <a href="https://en.wikipedia.org/wiki/Biological_computing">biological computers</a>.</p>
+</section>
+<section id="monty" class="level2">
+<h2 class="anchored" data-anchor-id="monty">Monty</h2>
+<p>Samuel Colvin discusses <a href="https://pydantic.dev/articles/pydantic-monty">Monty</a>, a Python interpreter for AI agents written in Rust.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>fpe</category>
+  <guid>https://stefan.langenbach.online/posts/fpe-2026-04/</guid>
+  <pubDate>Mon, 04 May 2026 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Quarto, Small Language Models, Self-Hosting</title>
+  <link>https://stefan.langenbach.online/posts/til-2026-03/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>Use <a href="https://quarto.org/">Quarto</a> for presentations and documents; If you’re hardware allows it, run small language models locally using <a href="https://ollama.com/">Ollama</a>. Give the latest iteration of <a href="https://deepmind.google/models/gemma/gemma-4/">Gemma</a> a try; Seriously consider self-hosting if you have basic Linux and DevOps experience. A Linux server, reverse-proxy and container runtime is all you need to get started.</p>
+</section>
+<section id="quarto" class="level2">
+<h2 class="anchored" data-anchor-id="quarto">Quarto</h2>
+<p>Experimenting with <a href="https://quarto.org/">Quarto</a> has been on my list for a long time. This month I finally got to use it to create <a href="https://quarto.org/docs/presentations/revealjs/">revealjs</a> powered slides and a <a href="https://quarto.org/docs/output-formats/typst.html">typst</a> based document. I authored both documents in VSCode using the official <a href="https://quarto.org/docs/tools/vscode/index.html">Quarto extension</a> and won’t go back.</p>
+</section>
+<section id="small-language-models" class="level2">
+<h2 class="anchored" data-anchor-id="small-language-models">Small Language Models</h2>
+<p>With the release of <a href="https://deepmind.google/models/gemma/gemma-4/">Gemma 4</a>, I’ve updated my <a href="https://ollama.com/">Ollama</a> installation and took several small, open-source language models (<a href="https://huggingface.co/ibm-granite">Granite 4</a>, <a href="https://huggingface.co/Qwen">Qwen 3.5</a>, <a href="https://deepmind.google/models/gemma/gemma-4/">Gemma 4</a> and <a href="https://huggingface.co/HuggingFaceTB/SmolLM3-3B">SmolLM v3</a>) for a ride. My current hardware setup (MacBook Air M2 with 16 RAM) only allows me to run the tiny versions of those models. While all of them work great for prototyping AI-powered applications, they don’t yet replace frontier models for more advanced tasks. I might just need to invest in beefier hardware to make that happen.</p>
+</section>
+<section id="selfhosting" class="level2">
+<h2 class="anchored" data-anchor-id="selfhosting">Selfhosting</h2>
+<p>I went down the self-hosting and homelab rabbit hole after reading Michael Kennedy’s <a href="https://talkpython.fm/books/python-in-production">Talk Python in Production</a> book. After researching self-hosted PaaS solutions, I tinkered with <a href="https://disco.cloud/">disco</a> on a super cheap <a href="https://www.hetzner.com/">Hetzner</a> server to host apps over at <a href="https://www.hetzner.com/">byteCare</a>. Currently, I am implementing a custom solution based on <a href="https://caddyserver.com/docs/">Caddy</a>, <a href="https://docs.docker.com/compose/">Docker Compose</a> and <a href="https://zitadel.com/about">Zitadel</a>. Stay tuned, this might deserve its own blog post.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>til</category>
+  <guid>https://stefan.langenbach.online/posts/til-2026-03/</guid>
+  <pubDate>Fri, 10 Apr 2026 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>The Last Invention</title>
+  <link>https://stefan.langenbach.online/posts/last-invention-podcast/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>I stumbled upon a gem last week: <a href="https://podcasts.apple.com/us/podcast/the-last-invention/id1839942885">The Last Invention</a> from <a href="https://www.longviewinvestigations.com/">Longview</a> is a podcast series about the origins, development, risks and opportunities posed by AI. Starting with the <a href="https://en.wikipedia.org/wiki/Turing_test">Turing test</a> in the 1950s, it goes on to tell the story of AI development, mentioning <a href="https://www.ibm.com/history/deep-blue">DeepBlue</a>, <a href="https://www.ibm.com/history/watson-jeopardy">Watson</a>, <a href="https://deepmind.google/research/alphago/">AlphaGo</a>, <a href="https://deepmind.google/about/">Deepmind</a>, <a href="https://openai.com/about/">OpenAI</a> and <a href="https://www.anthropic.com/company">Anthropic</a>. During the last week, I listened to the entire first season and can only recommend it: It’s thought-provoking, very well produced and just fascinating.</p>
+
+
+
+ ]]></description>
+  <category>podcast</category>
+  <category>ai</category>
+  <guid>https://stefan.langenbach.online/posts/last-invention-podcast/</guid>
+  <pubDate>Mon, 02 Mar 2026 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Hello World</title>
+  <link>https://stefan.langenbach.online/posts/hello-world/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Dear reader,</p>
+<p>welcome to my blog.<br>
+</p>
+<p>This is my second? attempt at publishing content regularly. The plan is to use this blog to document the things I learned (<a href="https://knowyourmeme.com/memes/today-i-learned-til">TIL</a>). As I have a life outside work, I won’t do so on daily basis. Instead, my goal is create one post per month featuring the most important learnings. I promise not to use AI to generate the text you will read. This is an exercise in writing, not AI engineering.</p>
+<p>Looking forward to have you with me on this journey.</p>
+
+
+
+ ]]></description>
+  <guid>https://stefan.langenbach.online/posts/hello-world/</guid>
+  <pubDate>Thu, 26 Feb 2026 00:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>

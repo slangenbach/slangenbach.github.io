@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="Monthly learnings, podcast picks and the occasional find from around the web.">
 
-<title>Blog</title>
+<title>Blog – Stefan Langenbach</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -41,14 +42,14 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-63b5708e65d6cd79cd7618c58d0c21e7.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-447e42e69aaa9833c0ba1b986f430b20.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-63b5708e65d6cd79cd7618c58d0c21e7.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-74f0be66b0a56b0cf0cdcca0fbcdc21c.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-4bcd2980e418fb41887d63458e57a114.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-74f0be66b0a56b0cf0cdcca0fbcdc21c.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-c43180dbeebdc577be8a49e5f545ffd7.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-6d022b03c368682a401c6b763f2a20c3.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-c43180dbeebdc577be8a49e5f545ffd7.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-db3a894d990d73fdacdf8cc1480123e0.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-8c63c7eb33b5e108f81e228062641af4.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-db3a894d990d73fdacdf8cc1480123e0.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -118,6 +119,16 @@ window.Quarto = {
 };
 </script>
 
+<link rel="alternate" type="application/rss+xml" title="Stefan Langenbach" href="blog.xml" data-external="1"><meta property="og:title" content="Blog – Stefan Langenbach">
+<meta property="og:description" content="Monthly learnings, podcast picks and the occasional find from around the web.">
+<meta property="og:image" content="https://stefan.langenbach.online/assets/images/profile.jpg">
+<meta property="og:site_name" content="Stefan Langenbach">
+<meta property="og:image:height" content="795">
+<meta property="og:image:width" content="1095">
+<meta name="twitter:title" content="Blog – Stefan Langenbach">
+<meta name="twitter:description" content="Monthly learnings, podcast picks and the occasional find from around the web.">
+<meta name="twitter:image" content="https://stefan.langenbach.online/assets/images/profile.jpg">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-fixed quarto-light"><a id="quarto-skip-link" class="visually-hidden-focusable" href="#quarto-document-content">Skip to main content</a><script id="quarto-html-before-body" type="application/javascript">
@@ -270,7 +281,8 @@ window.Quarto = {
       }
     };
     const authorPrefersDark = false;
-    const darkModeDefault = authorPrefersDark;
+    const queryPrefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+    const darkModeDefault = queryPrefersDark.matches;
       document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
       document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
     let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
@@ -284,6 +296,15 @@ window.Quarto = {
       toggleGiscusIfUsed(toAlternate, darkModeDefault);
       window.dispatchEvent(new Event('resize'));
     };
+    queryPrefersDark.addEventListener("change", e => {
+      if(window.localStorage.getItem("quarto-color-scheme") !== null)
+        return;
+      const alternate = e.matches
+      toggleColorMode(alternate);
+      refreshSafariScrollbar();
+      localAlternateSentinel = e.matches ? 'alternate' : 'default'; // this is used alongside local storage!
+      toggleGiscusIfUsed(alternate, darkModeDefault);
+    });
     // Switch to dark mode if need be
     if (hasAlternateSentinel()) {
       toggleColorMode(true);
@@ -296,6 +317,11 @@ window.Quarto = {
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark" aria-label="Site">
       <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Stefan Langenbach</span>
+    </a>
+  </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
@@ -304,6 +330,10 @@ window.Quarto = {
   <li class="nav-item">
     <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html"> 
+<span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link active" href="./blog.html" aria-current="page"> 
@@ -337,6 +367,11 @@ window.Quarto = {
 <h1 class="title">Blog</h1>
 </div>
 
+<div>
+  <div class="description">
+    Monthly learnings, podcast picks and the occasional find from around the web.
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
@@ -357,7 +392,7 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="Y3VsdC1yZXBvJTJDZG9jdW1lbnRhcnk=" data-listing-date-sort="1780617600000" data-listing-file-modified-sort="1794403861906" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="71">
+<div class="quarto-post image-right" data-index="0" data-categories="Y3VsdC1yZXBvJTJDZG9jdW1lbnRhcnk=" data-listing-date-sort="1780617600000" data-listing-file-modified-sort="1794404057455" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="71">
 <div class="thumbnail"><a href="./posts/cult-repo-movies/index.html" class="no-external-icon" aria-hidden="true" tabindex="-1">
 
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
@@ -383,12 +418,12 @@ window.Quarto = {
 <div class="metadata">
 <a href="./posts/cult-repo-movies/index.html" class="no-external-icon">
 <div class="listing-date">
-Jun 5, 2026
+2026-06-05
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="ZnBl" data-listing-date-sort="1780099200000" data-listing-file-modified-sort="1794403861906" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="159">
+<div class="quarto-post image-right" data-index="1" data-categories="ZnBl" data-listing-date-sort="1780099200000" data-listing-file-modified-sort="1794404057455" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="159">
 <div class="thumbnail"><a href="./posts/fpe-2026-05/index.html" class="no-external-icon" aria-hidden="true" tabindex="-1">
 
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
@@ -412,12 +447,12 @@ Jun 5, 2026
 <div class="metadata">
 <a href="./posts/fpe-2026-05/index.html" class="no-external-icon">
 <div class="listing-date">
-May 30, 2026
+2026-05-30
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="ZG9jdW1lbnRhcnklMkNhaQ==" data-listing-date-sort="1779062400000" data-listing-file-modified-sort="1794403861906" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="64">
+<div class="quarto-post image-right" data-index="2" data-categories="ZG9jdW1lbnRhcnklMkNhaQ==" data-listing-date-sort="1779062400000" data-listing-file-modified-sort="1794404057455" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="64">
 <div class="thumbnail"><a href="./posts/ai-doc-movie/index.html" class="no-external-icon" aria-hidden="true" tabindex="-1">
 
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
@@ -443,12 +478,12 @@ May 30, 2026
 <div class="metadata">
 <a href="./posts/ai-doc-movie/index.html" class="no-external-icon">
 <div class="listing-date">
-May 18, 2026
+2026-05-18
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-categories="ZnBl" data-listing-date-sort="1777852800000" data-listing-file-modified-sort="1794403861906" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="247">
+<div class="quarto-post image-right" data-index="3" data-categories="ZnBl" data-listing-date-sort="1777852800000" data-listing-file-modified-sort="1794404057455" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="247">
 <div class="thumbnail"><a href="./posts/fpe-2026-04/index.html" class="no-external-icon" aria-hidden="true" tabindex="-1">
 
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
@@ -472,12 +507,12 @@ May 18, 2026
 <div class="metadata">
 <a href="./posts/fpe-2026-04/index.html" class="no-external-icon">
 <div class="listing-date">
-May 4, 2026
+2026-05-04
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-categories="dGls" data-listing-date-sort="1775779200000" data-listing-file-modified-sort="1794403861906" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="261">
+<div class="quarto-post image-right" data-index="4" data-categories="dGls" data-listing-date-sort="1775779200000" data-listing-file-modified-sort="1794404057455" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="261">
 <div class="thumbnail"><a href="./posts/til-2026-03/index.html" class="no-external-icon" aria-hidden="true" tabindex="-1">
 
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
@@ -501,12 +536,12 @@ May 4, 2026
 <div class="metadata">
 <a href="./posts/til-2026-03/index.html" class="no-external-icon">
 <div class="listing-date">
-Apr 10, 2026
+2026-04-10
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="5" data-categories="cG9kY2FzdCUyQ2Fp" data-listing-date-sort="1772409600000" data-listing-file-modified-sort="1794403861906" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="85">
+<div class="quarto-post image-right" data-index="5" data-categories="cG9kY2FzdCUyQ2Fp" data-listing-date-sort="1772409600000" data-listing-file-modified-sort="1794404057455" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="85">
 <div class="thumbnail"><a href="./posts/last-invention-podcast/index.html" class="no-external-icon" aria-hidden="true" tabindex="-1">
 
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
@@ -532,12 +567,12 @@ Apr 10, 2026
 <div class="metadata">
 <a href="./posts/last-invention-podcast/index.html" class="no-external-icon">
 <div class="listing-date">
-Mar 2, 2026
+2026-03-02
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="6" data-categories="" data-listing-date-sort="1772064000000" data-listing-file-modified-sort="1794403861906" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="87">
+<div class="quarto-post image-right" data-index="6" data-categories="" data-listing-date-sort="1772064000000" data-listing-file-modified-sort="1794404057455" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="87">
 <div class="thumbnail"><a href="./posts/hello-world/index.html" class="no-external-icon" aria-hidden="true" tabindex="-1">
 
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
@@ -559,7 +594,7 @@ Mar 2, 2026
 <div class="metadata">
 <a href="./posts/hello-world/index.html" class="no-external-icon">
 <div class="listing-date">
-Feb 26, 2026
+2026-02-26
 </div>
 </a>
 </div>
@@ -1112,6 +1147,11 @@ Feb 26, 2026
     <li class="nav-item">
     <a class="nav-link" href="./privacy.html">
 <p>Privacy Policy</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="./blog.xml">
+<p>RSS</p>
 </a>
   </li>  
 </ul>

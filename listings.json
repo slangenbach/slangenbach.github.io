@@ -13,6 +13,8 @@
   },
   {
     "listing": "/talks.html",
-    "items": []
+    "items": [
+      "/talks/programmier-con-2026/index.html"
+    ]
   }
 ]
