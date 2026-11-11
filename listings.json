@@ -1,9 +1,5 @@
 [
   {
-    "listing": "/talks.html",
-    "items": []
-  },
-  {
     "listing": "/blog.html",
     "items": [
       "/posts/cult-repo-movies/index.html",
@@ -14,5 +10,9 @@
       "/posts/last-invention-podcast/index.html",
       "/posts/hello-world/index.html"
     ]
+  },
+  {
+    "listing": "/talks.html",
+    "items": []
   }
 ]
