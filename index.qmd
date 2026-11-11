@@ -3,7 +3,7 @@ title: "Stefan Langenbach"
 format: html
 image: assets/images/profile.jpg
 about:
-  template: jolla
+  template: trestles
   image-shape: round
   links:
     - icon: linkedin
@@ -14,12 +14,13 @@ about:
       href: https://github.com/slangenbach
 ---
 
-Hi, I'm Stefan 👋🏻\
-I work as a *Principal Consultant* for MLOps 👨‍💻 at [Comma Soft][1].\
-I am also the founder of [byteCare][2].\
-I usually write Python 🐍 work with AWS and Azure ☁️ and wrestle with AI models 🤖.\
-On the side I mix in some TypeScript, Go and Terraform.\
-If not coding, I might hit the homegym 🏋️‍♂️, go for a hike 🥾 or do some cooking 👨‍🍳.
+::: {.home-lead}
+Hi, I'm Stefan 👋🏻 I work as a *Principal Consultant* for MLOps at [Comma Soft][1] and I am the founder of [byteCare][2].
+:::
+
+This is where I write down what I learn while building AI platforms: monthly [TIL notes](blog.qmd#category=til), [podcast picks](blog.qmd#category=fpe), [talks](talks.qmd) and the occasional find from around the web.
+
+If not coding, I do functional training, enjoy cooking and love strong espresso. [More about me →](about.qmd)
 
 
 [1]: https://comma-soft.com
