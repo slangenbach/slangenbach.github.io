@@ -1,0 +1,16 @@
+---
+title: "Big Tech, nein danke: KI souverän, sicher und performant auf der eigenen Hardware"
+subtitle: "programmier.con 2026"
+description: "A talk about using AI models locally with Ollama, Pi and Docker"
+date: "2026-11-25"
+categories: [ai, agents, sovereignty]
+draft: false
+---
+
+## Abstract
+
+Cloud-KI ist bequem, aber sie hat ihre Tücken: Unvorhersehbare Kosten, Datenlecks und Vendor Lock-in. Es ist an der Zeit, die Kontrolle zurückzugewinnen. In diesem Talk zeige ich dir, wie du dich von großen Cloud-Anbietern unabhängig machst. Wir bauen gemeinsam den „Sovereignty Stack“ – eine clevere Kombination aus Open-Source-Modellen, Sandboxing und lokaler Orchestrierung auf Basis bewährter Tools wie Ollama, Docker und dem Pi Coding Agent. Das Beste daran? Wir redefinieren "lokal“: Wir starten auf dem Laptop, skalieren auf einen dedizierten Server und zeigen, wie du KI-Modelle aus europäischen Rechenzentren einbindest. Das Ergebnis sind leistungsstarke KI-Agenten, die deine Daten sicher innerhalb deiner eigenen Infrastruktur halten. Komm vorbei und lerne, wie du die volle Hoheit über deine KI-Systeme zurückgewinnst.
+
+## Recording
+
+tbd
