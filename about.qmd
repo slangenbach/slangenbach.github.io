@@ -1,0 +1,53 @@
+---
+title: About
+format: html
+from: markdown+emoji
+toc: true
+---
+
+Most **About** pages follow a predictable script: learned to code, got a degree, climbed the engineering ladder. My journey was a bit more chaotic, hands-on, and — looking back — a lot more fun.
+
+This is the story of my lifelong relationship with technology: from floppy disks and 56k dial-up tones to global data infrastructure and generative AI.
+
+## Phase 1: Silicon, Floppies & The Golden Age of Tinkering
+
+My relationship with computing started in the 1980s. Like many of my generation, my gateway was the [Commodore 64][1] and the [Amiga][2]. I still remember the physical rituals of early tech: swapping floppy disks, coaxing [auxiliary RAM units][3] to work, and the absolute magic of drawing pixel-art in MS Paint on Windows 95.
+
+As I grew older, using tech wasn't enough—I wanted to know how it worked under the hood. I started building my own PCs from scratch, battling through the quirks of Windows ME and 2000. I saved up for my first dedicated 3D graphics card — the legendary [3DFX Voodoo][4] — just to see games rendered in full glory.
+
+My early *programming* didn't happen in an IDE; it happened in text files. I spent hours writing custom `⁠autoexec.cfg` and `⁠config.cfg` files to squeeze every frame per second out of the original [Counter-Strike][5]. That led me straight into competitive online gaming in the [Electronic Sports League (ESL)][5] — enduring the screech of an [Elsa 56k modem][6], lugging heavy CRT monitors to local LAN parties, and coordinating matches on [IRC][7] channels long before Discord ever existed.
+
+I even dabbled in Linux early on with SuSE and Ubuntu — a rite of passage that, naturally, resulted in accidentally wiping my entire hard drive :shrug: .
+
+## Phase 2: Bridging Tech & Business Across Borders
+
+When it came time for university, I knew I didn't want to study computer science in a vacuum. I was fascinated by how tech scales within real-world organizations, so I chose an interdisciplinary route: a degree combining Economics, Business Administration, and Computer Science.
+
+This period was also about stepping out into the world. Studying abroad in the [Netherlands][8] and [Sweden][9] gave me my first real dose of international perspective—and sparked a few unforgettable tech moments:
+
+- The Smartphone Revolution: Getting my first iPhone (the 3GS) was game-changing. Having online maps and true mobile internet in my pocket wherever I walked felt like pure magic
+
+- The Credit Card Hack: While in Sweden, I discovered Spotify right when it launched. Having instant access to stream any song blew my mind so completely that I begged a fellow student I had just met to let me use his credit card to sign up (since card payments were mandatory back then and I didn't own one yet).
+
+- The Switch to Mac: On a flight from Sweden back to Germany, the airline managed to completely shred my custom-built Windows PC in transit. Taking it as a sign from the universe, I bought my first Mac and never looked back.
+
+It was also around this time that I picked up **Python** — my very first real programming language, and one that has stayed with me ever since.
+
+## Phase 3: Enterprise Data, Milan & Scaling MLOps
+
+I launched my career at Generali, bridging the gap between strategy and execution as a Technical Project Manager in Business Intelligence. I quickly gravitated toward the heavy lifting behind the scenes—working on foundational IT infrastructure and helping Generali adopt Hadoop as part of its modern data architecture. Starting out in BI wired my brain in a specific way: no matter what system I was building, I found myself constantly wrangling, cleaning, and shaping data—a habit that stuck with me throughout my career.
+My work then took me abroad to Milan, Italy, where I led the hands-on implementation of Generali's very first machine-learning-powered business process.
+That project made one thing clear: training a model is easy, but running it reliably in production is where the real challenge lies. I pivoted into MLOps early, mastering container orchestration with Kubernetes and OpenShift long before MLOps became a standard industry term.
+
+Later, I joined Covestro to build their MLOps team and platform operations entirely from scratch. This was where I fully immersed myself in cloud computing, architecting cloud-native MLOps environments running entirely on AWS, complete with enterprise CI/CD pipelines and robust infrastructure.
+
+Along the way, my toolbox grew beyond Python: Terraform for infrastructure, Go and TypeScript whenever a project called for them.
+
+## Phase 4: The AI Frontier & byteCare
+Technology is moving faster than ever, and today I find myself right back where I started: experimenting on the bleeding edge.
+My focus has evolved into AI Engineering and AI Infrastructure, designing the foundational systems that power modern AI—moving beyond traditional machine learning to build production-grade AI platforms and custom virtual assistants driven by LLMs.
+Taking everything I learned from building enterprise infrastructure and scaling ML systems, I founded my own company: byteCare. Through byteCare, I help organizations adopt cost-effective, performant, and privacy-preserving AI—ensuring businesses can leverage cutting-edge AI without compromising data sovereignty or blowing up their infrastructure budgets.
+
+## What Drives Me
+
+Looking back, the thread connecting my old Amiga to modern enterprise AI clusters is identical: an obsession with figuring out how complex systems work and turning raw technology into something practical and useful. My tools and frameworks change every few years, but that original curiosity — the urge to take things apart and build them better — never fades.
