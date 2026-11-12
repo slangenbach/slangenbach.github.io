@@ -7,7 +7,8 @@ meta:
 # "Engineer's notebook": warm paper, near-black ink, rust accent ("red pen").
 # Palette entries are the same in both modes, so the light/dark pairs are
 # mapped onto theme slots below. Consumers use the slots ($body-bg,
-# $body-color, $primary, $secondary, $tertiary, $code-bg), not $brand-*.
+# $body-color, $primary, $secondary, $tertiary, $code-bg, $code-block-bg),
+# not $brand-*.
 color:
   palette:
     paper: "#faf8f3"
