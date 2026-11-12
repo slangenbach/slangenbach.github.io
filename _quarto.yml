@@ -38,7 +38,7 @@ website:
 format:
   html:
     theme:
-      # Colours and fonts come from the slangenbach brand (_extensions/slangenbach).
+      # Colours and fonts come from the slangenbach brand (_extensions/slangenbach/slangenbach).
       # Quarto reads SCSS defaults back to front, so "brand" goes last: that way
       # base.scss can use the brand's colour slots ($body-bg, $primary, ...).
       light: [assets/styles/base.scss, brand]
