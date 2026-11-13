@@ -1,68 +1,33 @@
 /*-- scss:defaults --*/
-// "Engineer's notebook" theme: shared by light.scss and dark.scss.
-// Colours are set in light.scss / dark.scss; everything here uses !default so
-// those files win.
-
-// Palette (light fallbacks)
-$paper: #faf8f3 !default;
-$ink: #1f2328 !default;
-$ink-muted: #6b665f !default;
-$rule: #e4dfd5 !default;
-$accent: #a3421c !default;
-$code-paper: #f1ede4 !default;
+// "Engineer's notebook" site styling, layered on the slangenbach brand
+// (_extensions/slangenbach). The brand sets colours and fonts; its theme
+// slots carry the light or dark value of each brand colour, so they are
+// aliased here to the notebook's names.
+$paper: $body-bg;
+$ink: $body-color;
+$ink-muted: $secondary;
+$rule: $tertiary;
+$accent: $primary;
+$code-paper: $code-block-bg;
 
 // Bootstrap mapping
-$body-bg: $paper !default;
-$body-color: $ink !default;
-$link-color: $accent !default;
-$navbar-bg: $paper !default;
-$navbar-fg: $ink-muted !default;
-$navbar-hl: $ink !default;
-$footer-bg: $paper !default;
-$footer-fg: $ink-muted !default;
-$border-color: $rule !default;
-$text-muted: $ink-muted !default;
-$code-color: $ink !default;
-$code-bg: $code-paper !default;
-$code-block-bg: $code-paper !default;
+$link-color: $accent;
+$navbar-bg: $paper;
+$navbar-fg: $ink-muted;
+$navbar-hl: $ink;
+$footer-bg: $paper;
+$footer-fg: $ink-muted;
+$border-color: $rule;
+$text-muted: $ink-muted;
+$code-color: $ink;
 
-// Typography
-$font-family-serif: "Source Serif 4", "Iowan Old Style", "Charter", Georgia, serif;
-$font-family-sans-serif: $font-family-serif;
-$font-family-monospace: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
-$headings-font-family: $font-family-serif;
-$headings-font-weight: 620;
+// Reading rhythm
 $font-size-root: 18px;
 $line-height-base: 1.7;
 $link-decoration: underline;
 $link-hover-decoration: underline;
 
 /*-- scss:rules --*/
-
-// ---------- Self-hosted fonts (no third-party requests, GDPR-friendly) ----------
-@font-face {
-  font-family: "Source Serif 4";
-  src: url("/assets/fonts/SourceSerif4-Roman.woff") format("woff");
-  font-weight: 200 900;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Source Serif 4";
-  src: url("/assets/fonts/SourceSerif4-Italic.woff") format("woff");
-  font-weight: 200 900;
-  font-style: italic;
-  font-display: swap;
-}
-@each $w, $name in (400: "Regular", 500: "Medium", 700: "Bold") {
-  @font-face {
-    font-family: "JetBrains Mono";
-    src: url("/assets/fonts/JetBrainsMono-#{$name}.woff2") format("woff2");
-    font-weight: $w;
-    font-style: normal;
-    font-display: swap;
-  }
-}
 
 // Shared "label" look: small monospace metadata, the notebook's margin notes.
 %mono-label {
@@ -94,7 +59,7 @@ h1, h2, h3, h4, .title {
   line-height: 1.25;
   color: $ink;
 }
-h1.title { font-size: 2.3rem; font-weight: 650; }
+h1.title { font-size: 2.3rem; }
 main h1:not(.title), main h2 {
   border-bottom: none;
   margin-top: 2.4rem;
@@ -109,8 +74,8 @@ main h3 { font-size: 1.2rem; margin-top: 1.8rem; }
   padding-top: 0.6rem;
   padding-bottom: 0.6rem;
   .navbar-title {
-    font-family: $font-family-serif;
-    font-weight: 650;
+    font-family: $headings-font-family;
+    font-weight: $headings-font-weight;
     font-size: 1.1rem;
     color: $ink;
     letter-spacing: -0.01em;

@@ -1,0 +1,64 @@
+meta:
+  name: Stefan Langenbach
+  link:
+    home: https://stefan.langenbach.online
+    github: https://github.com/slangenbach
+
+# "Engineer's notebook": warm paper, near-black ink, rust accent ("red pen").
+# Palette entries are the same in both modes, so the light/dark pairs are
+# mapped onto theme slots below. Consumers use the slots ($body-bg,
+# $body-color, $primary, $secondary, $tertiary, $code-bg, $code-block-bg),
+# not $brand-*.
+color:
+  palette:
+    paper: "#faf8f3"
+    ink: "#1f2328"
+    ink-muted: "#6b665f"
+    rule: "#e4dfd5"
+    accent: "#a3421c"
+    code-paper: "#f1ede4"
+    paper-dark: "#17181b"
+    ink-dark: "#e7e3da"
+    ink-muted-dark: "#9b968c"
+    rule-dark: "#2c2d31"
+    accent-dark: "#e8895c"
+    code-paper-dark: "#202125"
+  background:
+    light: paper
+    dark: paper-dark
+  foreground:
+    light: ink
+    dark: ink-dark
+  primary:
+    light: accent
+    dark: accent-dark
+  secondary:
+    light: ink-muted
+    dark: ink-muted-dark
+  tertiary:
+    light: rule
+    dark: rule-dark
+
+typography:
+  fonts:
+    - family: Source Serif Pro
+      source: bunny
+      weight: [400, 600, 700]
+      style: [normal, italic]
+    - family: JetBrains Mono
+      source: bunny
+      weight: [400, 500, 700]
+      style: normal
+  base: Source Serif Pro
+  headings:
+    family: Source Serif Pro
+    weight: 600
+  monospace: JetBrains Mono
+  monospace-inline:
+    background-color:
+      light: code-paper
+      dark: code-paper-dark
+  monospace-block:
+    background-color:
+      light: code-paper
+      dark: code-paper-dark

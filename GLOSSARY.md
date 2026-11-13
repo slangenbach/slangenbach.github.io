@@ -12,6 +12,10 @@ _Avoid_: Article, entry, deep dive
 A presentation Stefan gives at a conference or meetup, listed with its abstract, recording and resources.
 _Avoid_: Presentation, session
 
+**Deck**:
+The slides Stefan shows during a Talk.
+_Avoid_: Presentation, slides (fine casually)
+
 ## Classification
 
 **Series**:
@@ -33,3 +37,9 @@ _Avoid_: Podcast picks (fine as homepage wording, not as the name)
 
 **CMT** (Closing my tabs):
 A monthly Series in which Stefan reviews the browser tabs he had open and writes about the most interesting ones.
+
+## Design
+
+**Brand**:
+The colours and fonts that the site and Stefan's personal Decks share.
+_Avoid_: Theme, design system, look
