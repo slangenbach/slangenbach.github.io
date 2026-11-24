@@ -4,21 +4,35 @@
     "href": "talks/programmier-con-2026/index.html",
     "title": "Big Tech, nein danke: KI souverän, sicher und performant auf der eigenen Hardware",
     "section": "",
-    "text": "Cloud-KI ist bequem, aber sie hat ihre Tücken: Unvorhersehbare Kosten, Datenlecks und Vendor Lock-in. Es ist an der Zeit, die Kontrolle zurückzugewinnen. In diesem Talk zeige ich dir, wie du dich von großen Cloud-Anbietern unabhängig machst. Wir bauen gemeinsam den „Sovereignty Stack“ – eine clevere Kombination aus Open-Source-Modellen, Sandboxing und lokaler Orchestrierung auf Basis bewährter Tools wie Ollama, Docker und dem Pi Coding Agent. Das Beste daran? Wir redefinieren “lokal“: Wir starten auf dem Laptop, skalieren auf einen dedizierten Server und zeigen, wie du KI-Modelle aus europäischen Rechenzentren einbindest. Das Ergebnis sind leistungsstarke KI-Agenten, die deine Daten sicher innerhalb deiner eigenen Infrastruktur halten. Komm vorbei und lerne, wie du die volle Hoheit über deine KI-Systeme zurückgewinnst."
+    "text": "Thanks for coming to my talk at programmier.con 2026 in Bad Nauheim. This page collects everything you need to try the Sovereignty Stack yourself."
   },
   {
-    "objectID": "talks/programmier-con-2026/index.html#abstract",
-    "href": "talks/programmier-con-2026/index.html#abstract",
+    "objectID": "talks/programmier-con-2026/index.html#slides",
+    "href": "talks/programmier-con-2026/index.html#slides",
     "title": "Big Tech, nein danke: KI souverän, sicher und performant auf der eigenen Hardware",
-    "section": "",
-    "text": "Cloud-KI ist bequem, aber sie hat ihre Tücken: Unvorhersehbare Kosten, Datenlecks und Vendor Lock-in. Es ist an der Zeit, die Kontrolle zurückzugewinnen. In diesem Talk zeige ich dir, wie du dich von großen Cloud-Anbietern unabhängig machst. Wir bauen gemeinsam den „Sovereignty Stack“ – eine clevere Kombination aus Open-Source-Modellen, Sandboxing und lokaler Orchestrierung auf Basis bewährter Tools wie Ollama, Docker und dem Pi Coding Agent. Das Beste daran? Wir redefinieren “lokal“: Wir starten auf dem Laptop, skalieren auf einen dedizierten Server und zeigen, wie du KI-Modelle aus europäischen Rechenzentren einbindest. Das Ergebnis sind leistungsstarke KI-Agenten, die deine Daten sicher innerhalb deiner eigenen Infrastruktur halten. Komm vorbei und lerne, wie du die volle Hoheit über deine KI-Systeme zurückgewinnst."
+    "section": "Slides",
+    "text": "Slides\nThe slides will be available here as a PDF shortly after the talk."
   },
   {
     "objectID": "talks/programmier-con-2026/index.html#recording",
     "href": "talks/programmier-con-2026/index.html#recording",
     "title": "Big Tech, nein danke: KI souverän, sicher und performant auf der eigenen Hardware",
     "section": "Recording",
-    "text": "Recording\ntbd"
+    "text": "Recording\nComing soon."
+  },
+  {
+    "objectID": "talks/programmier-con-2026/index.html#abstract",
+    "href": "talks/programmier-con-2026/index.html#abstract",
+    "title": "Big Tech, nein danke: KI souverän, sicher und performant auf der eigenen Hardware",
+    "section": "Abstract",
+    "text": "Abstract\nCloud AI is convenient, but it has its pitfalls: unpredictable costs, data leaks and vendor lock-in. It’s time to take back control. In this talk I show you how to become independent of the big cloud providers. Together we build the “Sovereignty Stack”: a combination of open-source models, sandboxing and local orchestration, based on proven tools like Ollama, Docker and the Pi coding agent. The best part? We redefine “local”: we start on the laptop, scale out to a dedicated server and show how to bring in AI models from European data centres. The result is capable AI agents that keep your data safely inside your own infrastructure. Come along and learn how to regain full control over your AI systems."
+  },
+  {
+    "objectID": "talks/programmier-con-2026/index.html#get-in-touch",
+    "href": "talks/programmier-con-2026/index.html#get-in-touch",
+    "title": "Big Tech, nein danke: KI souverän, sicher und performant auf der eigenen Hardware",
+    "section": "Get in touch",
+    "text": "Get in touch\nI gave this talk as the founder of byteCare. byteCare helps organisations adopt AI that is cost-effective, performant and keeps their data where it belongs. If you want to build something like this in your company, get in touch through byteCare.\nMore about me on the About page."
   },
   {
     "objectID": "privacy.html",
