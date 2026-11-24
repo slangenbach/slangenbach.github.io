@@ -1,16 +1,30 @@
 ---
 title: "Big Tech, nein danke: KI souverän, sicher und performant auf der eigenen Hardware"
 subtitle: "programmier.con 2026"
-description: "A talk about using AI models locally with Ollama, Pi and Docker"
+description: "Run AI agents on your own hardware with open models, a sandbox and EU providers: slides and contact for my programmier.con 2026 talk."
 date: "2026-11-25"
 categories: [ai, agents, sovereignty]
+aliases:
+  - /pcon-2026
 draft: false
 ---
 
-## Abstract
+Thanks for coming to my talk at [programmier.con 2026](https://www.programmier.bar/konferenz/programmier-con-2026-web-ai-edition) in Bad Nauheim. This page collects everything you need to try the Sovereignty Stack yourself.
 
-Cloud-KI ist bequem, aber sie hat ihre Tücken: Unvorhersehbare Kosten, Datenlecks und Vendor Lock-in. Es ist an der Zeit, die Kontrolle zurückzugewinnen. In diesem Talk zeige ich dir, wie du dich von großen Cloud-Anbietern unabhängig machst. Wir bauen gemeinsam den „Sovereignty Stack“ – eine clevere Kombination aus Open-Source-Modellen, Sandboxing und lokaler Orchestrierung auf Basis bewährter Tools wie Ollama, Docker und dem Pi Coding Agent. Das Beste daran? Wir redefinieren "lokal“: Wir starten auf dem Laptop, skalieren auf einen dedizierten Server und zeigen, wie du KI-Modelle aus europäischen Rechenzentren einbindest. Das Ergebnis sind leistungsstarke KI-Agenten, die deine Daten sicher innerhalb deiner eigenen Infrastruktur halten. Komm vorbei und lerne, wie du die volle Hoheit über deine KI-Systeme zurückgewinnst.
+## Slides
+
+The slides will be available here as a PDF shortly after the talk.
 
 ## Recording
 
-tbd
+Coming soon.
+
+## Abstract
+
+Cloud AI is convenient, but it has its pitfalls: unpredictable costs, data leaks and vendor lock-in. It's time to take back control. In this talk I show you how to become independent of the big cloud providers. Together we build the "Sovereignty Stack": a combination of open-source models, sandboxing and local orchestration, based on proven tools like Ollama, Docker and the Pi coding agent. The best part? We redefine "local": we start on the laptop, scale out to a dedicated server and show how to bring in AI models from European data centres. The result is capable AI agents that keep your data safely inside your own infrastructure. Come along and learn how to regain full control over your AI systems.
+
+## Get in touch
+
+I gave this talk as the founder of [byteCare](https://www.bytecare.tech). byteCare helps organisations adopt AI that is cost-effective, performant and keeps their data where it belongs. If you want to build something like this in your company, [get in touch through byteCare](https://www.bytecare.tech).
+
+More about me on the [About](/about.qmd) page.
