@@ -1,53 +1,89 @@
 ---
 title: About
+description: "How I got from a Commodore 64 to building AI platforms."
 format: html
 from: markdown+emoji
 toc: true
 ---
 
-Most **About** pages follow a predictable script: learned to code, got a degree, climbed the engineering ladder. My journey was a bit more chaotic, hands-on, and — looking back — a lot more fun.
+## TL;DR
 
-This is the story of my lifelong relationship with technology: from floppy disks and 56k dial-up tones to global data infrastructure and generative AI.
+- Started with a [Commodore 64][1] and an [Amiga][2], built my own PCs and broke a few Linux installs.
+- Studied Economics, Business Administration and Computer Science in the Netherlands ([Maastricht][9]) and Sweden ([Jönköping][10]). Learned [Python][11] along the way.
+- Worked on [BI][13] and [MLOps][15] at [Generali][12], including a stint in Milan, then built the MLOps team at [Covestro][18].
+- After Covestro, I founded [byteCare][22] and worked as a consultant at qdive (now [Wavestone][23]) and [Comma Soft][24].
+- Today I work on AI engineering and AI infrastructure at byteCare.
 
-## Phase 1: Silicon, Floppies & The Golden Age of Tinkering
+## The early days
 
-My relationship with computing started in the 1980s. Like many of my generation, my gateway was the [Commodore 64][1] and the [Amiga][2]. I still remember the physical rituals of early tech: swapping floppy disks, coaxing [auxiliary RAM units][3] to work, and the absolute magic of drawing pixel-art in MS Paint on Windows 95.
+My first computers were a [Commodore 64][1] and an [Amiga][2] in the 1980s. I remember swapping floppy disks, trying to get [RAM expansions][3] to work and drawing pixel art in Paintbrush on Windows 3.11.
 
-As I grew older, using tech wasn't enough—I wanted to know how it worked under the hood. I started building my own PCs from scratch, battling through the quirks of Windows ME and 2000. I saved up for my first dedicated 3D graphics card — the legendary [3DFX Voodoo][4] — just to see games rendered in full glory.
+At some point using computers wasn't enough. I wanted to know how they worked, so I built my own PCs and fought with Windows ME and 2000. I saved up for a [3DFX Voodoo][4] graphics card, so games finally looked good.
 
-My early *programming* didn't happen in an IDE; it happened in text files. I spent hours writing custom `⁠autoexec.cfg` and `⁠config.cfg` files to squeeze every frame per second out of the original [Counter-Strike][5]. That led me straight into competitive online gaming in the [Electronic Sports League (ESL)][5] — enduring the screech of an [Elsa 56k modem][6], lugging heavy CRT monitors to local LAN parties, and coordinating matches on [IRC][7] channels long before Discord ever existed.
+My first *programming* happened in config files. I tweaked `autoexec.cfg` and `config.cfg` to get a few more frames per second out of [Counter-Strike][5]. That got me into competitive gaming in the [ESL][6]: an [Elsa 56k modem][7], heavy CRT monitors carried to LAN parties and matches organized on [IRC][8], long before Discord.
 
-I even dabbled in Linux early on with SuSE and Ubuntu — a rite of passage that, naturally, resulted in accidentally wiping my entire hard drive :shrug: .
+I also tried Linux early on (SuSE, later Ubuntu) and, of course, accidentally wiped my entire hard drive :shrug:.
 
-## Phase 2: Bridging Tech & Business Across Borders
+## University
 
-When it came time for university, I knew I didn't want to study computer science in a vacuum. I was fascinated by how tech scales within real-world organizations, so I chose an interdisciplinary route: a degree combining Economics, Business Administration, and Computer Science.
+I didn't want to study computer science in isolation, so I chose a degree combining Economics, Business Administration and Computer Science. I studied in the Netherlands ([Maastricht][9]) and Sweden ([Jönköping][10]), which came with a few memorable tech moments:
 
-This period was also about stepping out into the world. Studying abroad in the [Netherlands][8] and [Sweden][9] gave me my first real dose of international perspective—and sparked a few unforgettable tech moments:
+- **iPhone:** My first smartphone was an iPhone 3GS. Having maps and mobile internet in my pocket was a big deal.
+- **Spotify:** It launched while I was in Sweden. I wanted it so badly that I asked a fellow student I had just met to sign me up with his credit card, because I didn't own one yet.
+- **Mac:** On my flight to Sweden, the airline destroyed my Windows laptop. So I bought a Mac. Haven't switched back since.
 
-- The Smartphone Revolution: Getting my first iPhone (the 3GS) was game-changing. Having online maps and true mobile internet in my pocket wherever I walked felt like pure magic
+This is also when I learned [Python][11], my first real programming language. I still use and love it today.
 
-- The Credit Card Hack: While in Sweden, I discovered Spotify right when it launched. Having instant access to stream any song blew my mind so completely that I begged a fellow student I had just met to let me use his credit card to sign up (since card payments were mandatory back then and I didn't own one yet).
+## Career
 
-- The Switch to Mac: On a flight from Sweden back to Germany, the airline managed to completely shred my custom-built Windows PC in transit. Taking it as a sign from the universe, I bought my first Mac and never looked back.
+### Generali
 
-It was also around this time that I picked up **Python** — my very first real programming language, and one that has stayed with me ever since.
+I started my career at [Generali][12] as a technical project manager in [Business Intelligence][13]. I soon moved closer to the infrastructure and helped introduce [Hadoop][14] as part of Generali's data architecture. BI taught me that whatever you build, a big part of the work is cleaning and shaping data.
 
-## Phase 3: Enterprise Data, Milan & Scaling MLOps
+In Milan (Italy), I led the implementation of Generali's first ML-powered business process. Besides the tech, that meant a lot of project management and getting the people involved on board. Training the model was the easy part. Running it reliably in production was hard, so I moved into [MLOps][15] and worked a lot with [Kubernetes][16] and [OpenShift][17], before MLOps was a common term.
 
-I launched my career at Generali, bridging the gap between strategy and execution as a Technical Project Manager in Business Intelligence. I quickly gravitated toward the heavy lifting behind the scenes—working on foundational IT infrastructure and helping Generali adopt Hadoop as part of its modern data architecture. Starting out in BI wired my brain in a specific way: no matter what system I was building, I found myself constantly wrangling, cleaning, and shaping data—a habit that stuck with me throughout my career.
-My work then took me abroad to Milan, Italy, where I led the hands-on implementation of Generali's very first machine-learning-powered business process.
-That project made one thing clear: training a model is easy, but running it reliably in production is where the real challenge lies. I pivoted into MLOps early, mastering container orchestration with Kubernetes and OpenShift long before MLOps became a standard industry term.
+### Covestro
 
-Later, I joined Covestro to build their MLOps team and platform operations entirely from scratch. This was where I fully immersed myself in cloud computing, architecting cloud-native MLOps environments running entirely on AWS, complete with enterprise CI/CD pipelines and robust infrastructure.
+At [Covestro][18], I built the MLOps team and platform from scratch, running entirely on AWS with CI/CD pipelines and infrastructure as code. Besides Python, I started using [Terraform][19], and [Go][20] or [TypeScript][21] when a project needed it.
 
-Along the way, my toolbox grew beyond Python: Terraform for infrastructure, Go and TypeScript whenever a project called for them.
+### Consulting and byteCare
 
-## Phase 4: The AI Frontier & byteCare
-Technology is moving faster than ever, and today I find myself right back where I started: experimenting on the bleeding edge.
-My focus has evolved into AI Engineering and AI Infrastructure, designing the foundational systems that power modern AI—moving beyond traditional machine learning to build production-grade AI platforms and custom virtual assistants driven by LLMs.
-Taking everything I learned from building enterprise infrastructure and scaling ML systems, I founded my own company: byteCare. Through byteCare, I help organizations adopt cost-effective, performant, and privacy-preserving AI—ensuring businesses can leverage cutting-edge AI without compromising data sovereignty or blowing up their infrastructure budgets.
+After Covestro, I founded [byteCare][22] and moved into consulting, first as Lead AI Engineer at qdive (now part of [Wavestone][23]) and then as Principal Consultant for MLOps at [Comma Soft][24], helping clients build and run their ML and AI platforms.
 
-## What Drives Me
+Today I work on byteCare full-time. My focus is AI engineering and AI infrastructure: platforms that run LLM-based applications and assistants in production. I help organizations use AI that is cost-effective, performant and privacy-preserving, without giving up control over their data or blowing their infrastructure budget.
 
-Looking back, the thread connecting my old Amiga to modern enterprise AI clusters is identical: an obsession with figuring out how complex systems work and turning raw technology into something practical and useful. My tools and frameworks change every few years, but that original curiosity — the urge to take things apart and build them better — never fades.
+## What drives me
+
+I like taking things apart to see how they work, and then building something useful with them. That was true for the Amiga and it's true for AI platforms. The tools change every few years. That part hasn't.
+
+## Get in touch
+
+Want to chat? Reach out on [LinkedIn][25]. You'll find my code on [GitHub][26] and my talks on the [Talks](talks.qmd) page.
+
+
+[1]: https://en.wikipedia.org/wiki/Commodore_64
+[2]: https://en.wikipedia.org/wiki/Amiga
+[3]: https://en.wikipedia.org/wiki/Commodore_REU
+[4]: https://en.wikipedia.org/wiki/Voodoo_Graphics
+[5]: https://en.wikipedia.org/wiki/Counter-Strike_(video_game)
+[6]: https://en.wikipedia.org/wiki/ESL_(company)
+[7]: https://en.wikipedia.org/wiki/Elsa_Technology
+[8]: https://en.wikipedia.org/wiki/IRC
+[9]: https://www.maastrichtuniversity.nl/
+[10]: https://ju.se/en/about-us/jonkoping-international-business-school.html
+[11]: https://www.python.org/
+[12]: https://www.generali.com/
+[13]: https://en.wikipedia.org/wiki/Business_intelligence
+[14]: https://hadoop.apache.org/
+[15]: https://en.wikipedia.org/wiki/MLOps
+[16]: https://kubernetes.io/
+[17]: https://www.redhat.com/en/technologies/cloud-computing/openshift
+[18]: https://www.covestro.com/
+[19]: https://developer.hashicorp.com/terraform
+[20]: https://go.dev/
+[21]: https://www.typescriptlang.org/
+[22]: https://www.bytecare.tech
+[23]: https://www.wavestone.com/de/
+[24]: https://comma-soft.com
+[25]: https://www.linkedin.com/in/stefanlangenbach
+[26]: https://github.com/slangenbach

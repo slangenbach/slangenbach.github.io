@@ -15,7 +15,7 @@ about:
 ---
 
 ::: {.home-lead}
-Hi, I'm Stefan 👋🏻 I work as a *Principal Consultant* for MLOps at [Comma Soft][1] and I am the founder of [byteCare][2].
+Hi, I'm Stefan 👋🏻 I'm the founder of [byteCare][1].
 :::
 
 This is where I write down what I learn while building AI platforms: monthly [TIL notes](blog.qmd#category=this-month-i-learned), [podcast picks](blog.qmd#category=favorite-podcast-episodes), [talks](talks.qmd) and the occasional find from around the web.
@@ -23,5 +23,4 @@ This is where I write down what I learn while building AI platforms: monthly [TI
 If not coding, I do functional training, enjoy cooking and love strong espresso. [More about me →](about.qmd)
 
 
-[1]: https://comma-soft.com
-[2]: https://www.bytecare.tech
+[1]: https://www.bytecare.tech
