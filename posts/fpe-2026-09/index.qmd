@@ -1,0 +1,25 @@
+---
+title: "Agentic engineering and DHH"
+description: "Favorite podcast episodes: September 2026 edition"
+date: "YYYY-MM-DD"
+categories: [favorite-podcast-episodes, ai]
+draft: true
+---
+
+## TL;DR
+
+- [Future of programming, AI and agentic engineering][1] with DHH and Lex Fridman
+
+## Future of programming, AI and agentic engineering
+
+In his second conversation with [Lex Fridman][2], [DHH][3] talks about programming with agents, vibe coding versus agentic engineering and how he builds [Omarchy][4] these days. I'm glued to the episode whenever he talks: the way he speaks and his attitude make it great to listen to, and it got me really excited to embrace AI.
+
+My takeaway: try AI engineering, seriously. The episode made me try and adopt [Skills for Real Engineers][5] by [Matt Pocock][6]. They deserve their own TIL, so stay tuned.
+
+
+[1]: https://lexfridman.com/dhh-2
+[2]: https://lexfridman.com/podcast/
+[3]: https://dhh.dk/
+[4]: https://omarchy.org/
+[5]: https://github.com/mattpocock/skills
+[6]: https://github.com/mattpocock
