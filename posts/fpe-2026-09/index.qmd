@@ -1,9 +1,9 @@
 ---
 title: "Agentic engineering and DHH"
 description: "Favorite podcast episodes: September 2026 edition"
-date: "YYYY-MM-DD"
+date: "2026-11-25"
 categories: [favorite-podcast-episodes, ai]
-draft: true
+draft: false
 ---
 
 ## TL;DR
