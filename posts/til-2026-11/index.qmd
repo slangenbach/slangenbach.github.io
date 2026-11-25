@@ -1,0 +1,21 @@
+---
+title: "Pi Virtual Models"
+description: "This month I learned: November 2026 edition"
+date: "YYYY-MM-DD"
+categories: [this-month-i-learned]
+draft: true
+---
+
+## TL;DR
+
+- [Virtual Models][2] in [Pi][1]
+
+## Pi Virtual Models
+
+[Virtual Models][2] in the [Pi][1] coding agent let you select a single model while a router picks the actual model for each request, for example a small model for quick questions and a large one for hard problems.
+
+- tbd
+
+
+[1]: https://pi.dev/
+[2]: https://pi.dev/docs/latest/virtual-models
