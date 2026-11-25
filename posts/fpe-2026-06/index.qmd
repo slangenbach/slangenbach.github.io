@@ -3,7 +3,7 @@ title: "Kubernetes and Kelsey Hightower"
 description: "Favorite podcast episodes: June 2026 edition"
 date: "2026-06-26"
 categories: [favorite-podcast-episodes]
-draft: true
+draft: false
 ---
 
 ## TL;DR
@@ -12,11 +12,10 @@ draft: true
 
 ## Kubernetes and retiring at the top
 
-Another gem from the [Pragmatic Engineer Podcast][2]. [Kelsey Hightower][3] talks about his unusual path into tech: he started as a self-taught technician installing DSL modems, ran his own computer store and ended up as a Distinguished Engineer at Google. Several of his career moves started with someone in a talk audience offering him a job. CoreOS, for example, hired him after watching him PXE-boot their OS live on stage.
+Another gem from the [Pragmatic Engineer Podcast][2]. Kelsey Hightower talks about his unusual path into tech: he started as a self-taught technician installing DSL modems, ran his own computer store and ended up as a Distinguished Engineer at Google. Several of his career moves started with someone in a talk audience offering him a job. CoreOS, for example, hired him after watching him PXE-boot their OS live on stage.
 
 He also covers the move from configuration management to containers and Kubernetes, and what it took to step back at the peak of his career. I especially liked how he talks about money: he treats it as a way to buy freedom, not as a status symbol. His take on AI is refreshingly people-first, and he's careful about giving agents raw access to infrastructure without guardrails.
 
 
 [1]: https://newsletter.pragmaticengineer.com/p/kubernetes-and-retiring-at-the-top
 [2]: https://newsletter.pragmaticengineer.com/
-[3]: https://github.com/kelseyhightower
