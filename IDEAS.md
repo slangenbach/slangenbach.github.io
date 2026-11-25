@@ -50,13 +50,6 @@ Ideas waiting to become Posts. The `capture-idea` skill adds them, the `write-po
 - **Said:** The Google Deepmind Podcast with Hannah Fry for FPE
 - **Links:** none
 
-### DHH-only edition
-
-- **Captured:** 2026-11-25
-- **Said:** A FPE with only DHH on AI Engineering and the future of programming with DHH with Lex Friedman
-- **Links:** none
-- **Notes:** A whole FPE edition on DHH episodes.
-
 ## CMT
 
 ## Standalone
