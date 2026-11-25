@@ -11,17 +11,13 @@ draft: false
 
 Thanks for coming to my talk at [programmier.con 2026](https://www.programmier.bar/konferenz/programmier-con-2026-web-ai-edition) in Bad Nauheim. This page collects everything you need to try the Sovereignty Stack yourself.
 
-## Slides
-
-The slides will be available here as a PDF shortly after the talk.
-
-## Recording
-
-Coming soon.
-
 ## Abstract
 
 Cloud AI is convenient, but it has its pitfalls: unpredictable costs, data leaks and vendor lock-in. It's time to take back control. In this talk I show you how to become independent of the big cloud providers. Together we build the "Sovereignty Stack": a combination of open-source models, sandboxing and local orchestration, based on proven tools like Ollama, Docker and the Pi coding agent. The best part? We redefine "local": we start on the laptop, scale out to a dedicated server and show how to bring in AI models from European data centres. The result is capable AI agents that keep your data safely inside your own infrastructure. Come along and learn how to regain full control over your AI systems.
+
+## Slides
+
+Coming soon.
 
 ## Get in touch
 
