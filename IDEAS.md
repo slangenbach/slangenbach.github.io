@@ -35,6 +35,13 @@ Ideas waiting to become Posts. The `capture-idea` skill adds them, the `write-po
 - **Said:** A TIL on harness2 from google
 - **Links:** none
 
+### Matt Pocock's Skills for real engineers
+
+- **Captured:** 2026-11-25
+- **Said:** It made try and adopt the Skills for real engineers from Matt Pocock. They deserve their own TIL, but we may crosslink from here
+- **Links:** none
+- **Notes:** He tried them after the DHH episode on the Lex Fridman Podcast (#501). The FPE Post on that episode links to this TIL.
+
 ## FPE
 
 ### Google DeepMind podcast with Hannah Fry
