@@ -17,7 +17,36 @@
 <width>144</width>
 </image>
 <generator>quarto-1.11.9</generator>
-<lastBuildDate>Fri, 26 Jun 2026 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Wed, 25 Nov 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Agentic engineering and DHH</title>
+  <link>https://stefan.langenbach.online/posts/fpe-2026-09/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<ul>
+<li><a href="https://lexfridman.com/dhh-2">Future of programming, AI and agentic engineering</a> with DHH and Lex Fridman</li>
+</ul>
+</section>
+<section id="future-of-programming-ai-and-agentic-engineering" class="level2">
+<h2 class="anchored" data-anchor-id="future-of-programming-ai-and-agentic-engineering">Future of programming, AI and agentic engineering</h2>
+<p>In his second conversation with <a href="https://lexfridman.com/podcast/">Lex Fridman</a>, <a href="https://dhh.dk/">DHH</a> talks about programming with agents, vibe coding versus agentic engineering and how he builds <a href="https://omarchy.org/">Omarchy</a> these days. I’m glued to the episode whenever he talks: the way he speaks and his attitude make it great to listen to, and it got me really excited to embrace AI.</p>
+<p>My takeaway: try AI engineering, seriously. The episode made me try and adopt <a href="https://github.com/mattpocock/skills">Skills for Real Engineers</a> by <a href="https://github.com/mattpocock">Matt Pocock</a>. They deserve their own TIL, so stay tuned.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>favorite-podcast-episodes</category>
+  <category>ai</category>
+  <guid>https://stefan.langenbach.online/posts/fpe-2026-09/</guid>
+  <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Kubernetes and Kelsey Hightower</title>
   <link>https://stefan.langenbach.online/posts/fpe-2026-06/</link>

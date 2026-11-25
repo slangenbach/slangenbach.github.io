@@ -49,123 +49,25 @@
     "text": "Dear reader,\nwelcome to my blog.\n\nThis is my second? attempt at publishing content regularly. The plan is to use this blog to document the things I learned (TIL). As I have a life outside work, I won’t do so on daily basis. Instead, my goal is create one post per month featuring the most important learnings. I promise not to use AI to generate the text you will read. This is an exercise in writing, not AI engineering.\nUpdate (November 2026): AI writes first drafts for me now. It never writes a post on its own: I rewrite and finish every one before it goes live.\nLooking forward to have you with me on this journey."
   },
   {
-    "objectID": "posts/fpe-2026-05/index.html",
-    "href": "posts/fpe-2026-05/index.html",
-    "title": "Pi, Data-Intensive Applications and OpenCode",
+    "objectID": "posts/fpe-2026-06/index.html",
+    "href": "posts/fpe-2026-06/index.html",
+    "title": "Kubernetes and Kelsey Hightower",
     "section": "",
-    "text": "Building Pi with Mario Zechner and Armin Ronacher\nDesigning Data-Intensive Applications with Martin Kleppmann\nBuilding OpenCode with Dax Raad"
+    "text": "Kubernetes and retiring at the top with Kelsey Hightower"
   },
   {
-    "objectID": "posts/fpe-2026-05/index.html#tldr",
-    "href": "posts/fpe-2026-05/index.html#tldr",
-    "title": "Pi, Data-Intensive Applications and OpenCode",
+    "objectID": "posts/fpe-2026-06/index.html#tldr",
+    "href": "posts/fpe-2026-06/index.html#tldr",
+    "title": "Kubernetes and Kelsey Hightower",
     "section": "",
-    "text": "Building Pi with Mario Zechner and Armin Ronacher\nDesigning Data-Intensive Applications with Martin Kleppmann\nBuilding OpenCode with Dax Raad"
+    "text": "Kubernetes and retiring at the top with Kelsey Hightower"
   },
   {
-    "objectID": "posts/fpe-2026-05/index.html#building-pi",
-    "href": "posts/fpe-2026-05/index.html#building-pi",
-    "title": "Pi, Data-Intensive Applications and OpenCode",
-    "section": "Building Pi",
-    "text": "Building Pi\nI really liked this episode from the Pragmatic Engineer Podcast. Mario’s approach to building a simple, stable and reliable coding agent is a very welcome breath of fresh air in the overhyped AI coding tools landscape."
-  },
-  {
-    "objectID": "posts/fpe-2026-05/index.html#designing-data-intensive-applications",
-    "href": "posts/fpe-2026-05/index.html#designing-data-intensive-applications",
-    "title": "Pi, Data-Intensive Applications and OpenCode",
-    "section": "Designing Data-Intensive Applications",
-    "text": "Designing Data-Intensive Applications\nMartin Kleppmann’s book Designing Data-Intensive Applications is considered a classic in software development literature. I personally own a copy and am currently reading through it. While it was great to hear that Martin has published the second edition of the book, his thoughts regarding local-first software really caught my interest. If you want to find out more about the local-first concept, check out Cult Repo’s mini documentation:"
-  },
-  {
-    "objectID": "posts/fpe-2026-05/index.html#building-opencode",
-    "href": "posts/fpe-2026-05/index.html#building-opencode",
-    "title": "Pi, Data-Intensive Applications and OpenCode",
-    "section": "Building OpenCode",
-    "text": "Building OpenCode\nA great look behind the scenes of developing OpenCode, combined with a realistic take on using AI for software development."
-  },
-  {
-    "objectID": "posts/cult-repo-movies/index.html",
-    "href": "posts/cult-repo-movies/index.html",
-    "title": "Cult Repo tech documentaries",
-    "section": "",
-    "text": "I first discovered Cult Repo through the Node JS and Python documentaries back in 2024 and 2025. What I didn’t know, was that they have been creating software related documentaries (Kubernetes, Prometheus, Ruby, etc.) since 2018. Their most recent movies are about C++ and Java’s Spring Boot Framework. And although I never was a C++, nor Java developer, I really enjoyed both movies."
-  },
-  {
-    "objectID": "posts/ai-doc-movie/index.html",
-    "href": "posts/ai-doc-movie/index.html",
-    "title": "The AI Doc",
-    "section": "",
-    "text": "In his recent conversation with Sam Harris, Tristan Harris, which you might recall from The Social Dilemma, discusses the documentary The AI Doc. The movie investigates the risk and opportunities of AI by interviewing various researchers, CEOs and staff of the major AI labs. AFAIK the move is not yet available online, but the trailer already looks great."
-  },
-  {
-    "objectID": "imprint.html",
-    "href": "imprint.html",
-    "title": "Impressum",
-    "section": "",
-    "text": "Stefan Langenbach\nAm Hangeweiher 3\n52074 Aachen\n\n\nKontakt\nTelefon: +49-241-95704253\nE-Mail: hello@langenbach.online\n\nQuelle: e-Recht24.de"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "Started with a Commodore 64 and an Amiga, built my own PCs and broke a few Linux installs.\nStudied Economics, Business Administration and Computer Science in the Netherlands (Maastricht) and Sweden (Jönköping). Learned Python along the way.\nWorked on BI and MLOps at Generali, including a stint in Milan, then built the MLOps team at Covestro.\nAfter Covestro, I founded byteCare and worked as a consultant at qdive (now Wavestone) and Comma Soft.\nToday I work on AI engineering and AI infrastructure at byteCare."
-  },
-  {
-    "objectID": "about.html#tldr",
-    "href": "about.html#tldr",
-    "title": "About",
-    "section": "",
-    "text": "Started with a Commodore 64 and an Amiga, built my own PCs and broke a few Linux installs.\nStudied Economics, Business Administration and Computer Science in the Netherlands (Maastricht) and Sweden (Jönköping). Learned Python along the way.\nWorked on BI and MLOps at Generali, including a stint in Milan, then built the MLOps team at Covestro.\nAfter Covestro, I founded byteCare and worked as a consultant at qdive (now Wavestone) and Comma Soft.\nToday I work on AI engineering and AI infrastructure at byteCare."
-  },
-  {
-    "objectID": "about.html#the-early-days",
-    "href": "about.html#the-early-days",
-    "title": "About",
-    "section": "The early days",
-    "text": "The early days\nMy first computers were a Commodore 64 and an Amiga in the 1980s. I remember swapping floppy disks, trying to get RAM expansions to work and drawing pixel art in Paintbrush on Windows 3.11.\nAt some point using computers wasn’t enough. I wanted to know how they worked, so I built my own PCs and fought with Windows ME and 2000. I saved up for a 3DFX Voodoo graphics card, so games finally looked good.\nMy first programming happened in config files. I tweaked autoexec.cfg and config.cfg to get a few more frames per second out of Counter-Strike. That got me into competitive gaming in the ESL: an Elsa 56k modem, heavy CRT monitors carried to LAN parties and matches organized on IRC, long before Discord.\nI also tried Linux early on (SuSE, later Ubuntu) and, of course, accidentally wiped my entire hard drive 🤷."
-  },
-  {
-    "objectID": "about.html#university",
-    "href": "about.html#university",
-    "title": "About",
-    "section": "University",
-    "text": "University\nI didn’t want to study computer science in isolation, so I chose a degree combining Economics, Business Administration and Computer Science. I studied in the Netherlands (Maastricht) and Sweden (Jönköping), which came with a few memorable tech moments:\n\niPhone: My first smartphone was an iPhone 3GS. Having maps and mobile internet in my pocket was a big deal.\nSpotify: It launched while I was in Sweden. I wanted it so badly that I asked a fellow student I had just met to sign me up with his credit card, because I didn’t own one yet.\nMac: On my flight to Sweden, the airline destroyed my Windows laptop. So I bought a Mac. Haven’t switched back since.\n\nThis is also when I learned Python, my first real programming language. I still use and love it today."
-  },
-  {
-    "objectID": "about.html#career",
-    "href": "about.html#career",
-    "title": "About",
-    "section": "Career",
-    "text": "Career\n\nGenerali\nI started my career at Generali as a technical project manager in Business Intelligence. I soon moved closer to the infrastructure and helped introduce Hadoop as part of Generali’s data architecture. BI taught me that whatever you build, a big part of the work is cleaning and shaping data.\nIn Milan (Italy), I led the implementation of Generali’s first ML-powered business process. Besides the tech, that meant a lot of project management and getting the people involved on board. Training the model was the easy part. Running it reliably in production was hard, so I moved into MLOps and worked a lot with Kubernetes and OpenShift, before MLOps was a common term.\n\n\nCovestro\nAt Covestro, I built the MLOps team and platform from scratch, running entirely on AWS with CI/CD pipelines and infrastructure as code. Besides Python, I started using Terraform, and Go or TypeScript when a project needed it.\n\n\nConsulting and byteCare\nAfter Covestro, I founded byteCare and moved into consulting, first as Lead AI Engineer at qdive (now part of Wavestone) and then as Principal Consultant for MLOps at Comma Soft, helping clients build and run their ML and AI platforms.\nToday I work on byteCare full-time. My focus is AI engineering and AI infrastructure: platforms that run LLM-based applications and assistants in production. I help organizations use AI that is cost-effective, performant and privacy-preserving, without giving up control over their data or blowing their infrastructure budget."
-  },
-  {
-    "objectID": "about.html#what-drives-me",
-    "href": "about.html#what-drives-me",
-    "title": "About",
-    "section": "What drives me",
-    "text": "What drives me\nI like taking things apart to see how they work, and then building something useful with them. That was true for the Amiga and it’s true for AI platforms. The tools change every few years. That part hasn’t."
-  },
-  {
-    "objectID": "about.html#get-in-touch",
-    "href": "about.html#get-in-touch",
-    "title": "About",
-    "section": "Get in touch",
-    "text": "Get in touch\nWant to chat? Reach out on LinkedIn. You’ll find my code on GitHub and my talks on the Talks page."
-  },
-  {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "Blog",
-    "section": "",
-    "text": "Kubernetes and Kelsey Hightower\n\n\n\nfavorite-podcast-episodes\n\n\n\n\nFavorite podcast episodes: June 2026 edition\n\n\n\n\n\n\n2026-06-26\n\n\n\n\n\n\n\n\n\n\n\n\nCult Repo tech documentaries\n\n\n\ncult-repo\n\ndocumentary\n\n\n\n\nThe stories behind the technology we use and love\n\n\n\n\n\n\n2026-06-05\n\n\n\n\n\n\n\n\n\n\n\n\nPi, Data-Intensive Applications and OpenCode\n\n\n\nfavorite-podcast-episodes\n\n\n\n\nFavorite podcast episodes: May 2026 edition\n\n\n\n\n\n\n2026-05-30\n\n\n\n\n\n\n\n\n\n\n\n\nThe AI Doc\n\n\n\ndocumentary\n\nai\n\n\n\n\nA documentary about the risks and opportunities of AI\n\n\n\n\n\n\n2026-05-18\n\n\n\n\n\n\n\n\n\n\n\n\nDHH, Mitchell Hashimoto, Building Claude Code, Wetware and Monty\n\n\n\nfavorite-podcast-episodes\n\n\n\n\nFavorite podcast episodes: April 2026 edition\n\n\n\n\n\n\n2026-05-04\n\n\n\n\n\n\n\n\n\n\n\n\nQuarto, Small Language Models, Self-Hosting\n\n\n\nthis-month-i-learned\n\n\n\n\nThis month I learned: March 2026 edition\n\n\n\n\n\n\n2026-04-10\n\n\n\n\n\n\n\n\n\n\n\n\nThe Last Invention\n\n\n\npodcast\n\nai\n\n\n\n\nA podcast series about the AI revolution\n\n\n\n\n\n\n2026-03-02\n\n\n\n\n\n\n\n\n\n\n\n\nHello World\n\n\n\n\n\n\nMy second attempt at blogging regularly.\n\n\n\n\n\n\n2026-02-26\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Stefan Langenbach",
-    "section": "",
-    "text": "Hi, I’m Stefan 👋🏻 I’m the founder of byteCare.\n\nThis is where I write down what I learn while building AI platforms: monthly TIL notes, podcast picks, talks and the occasional find from around the web.\nIf not coding, I do functional training, enjoy cooking and love strong espresso. More about me →"
+    "objectID": "posts/fpe-2026-06/index.html#kubernetes-and-retiring-at-the-top",
+    "href": "posts/fpe-2026-06/index.html#kubernetes-and-retiring-at-the-top",
+    "title": "Kubernetes and Kelsey Hightower",
+    "section": "Kubernetes and retiring at the top",
+    "text": "Kubernetes and retiring at the top\nAnother gem from the Pragmatic Engineer Podcast. Kelsey Hightower talks about his unusual path into tech: he started as a self-taught technician installing DSL modems, ran his own computer store and ended up as a Distinguished Engineer at Google. Several of his career moves started with someone in a talk audience offering him a job. CoreOS, for example, hired him after watching him PXE-boot their OS live on stage.\nHe also covers the move from configuration management to containers and Kubernetes, and what it took to step back at the peak of his career. I especially liked how he talks about money: he treats it as a way to buy freedom, not as a status symbol. His take on AI is refreshingly people-first, and he’s careful about giving agents raw access to infrastructure without guardrails."
   },
   {
     "objectID": "posts/fpe-2026-04/index.html",
@@ -217,25 +119,144 @@
     "text": "Monty\nSamuel Colvin discusses Monty, a Python interpreter for AI agents written in Rust."
   },
   {
-    "objectID": "posts/fpe-2026-06/index.html",
-    "href": "posts/fpe-2026-06/index.html",
-    "title": "Kubernetes and Kelsey Hightower",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Stefan Langenbach",
     "section": "",
-    "text": "Kubernetes and retiring at the top with Kelsey Hightower"
+    "text": "Hi, I’m Stefan 👋🏻 I’m the founder of byteCare.\n\nThis is where I write down what I learn while building AI platforms: monthly TIL notes, podcast picks, talks and the occasional find from around the web.\nIf not coding, I do functional training, enjoy cooking and love strong espresso. More about me →"
   },
   {
-    "objectID": "posts/fpe-2026-06/index.html#tldr",
-    "href": "posts/fpe-2026-06/index.html#tldr",
-    "title": "Kubernetes and Kelsey Hightower",
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
     "section": "",
-    "text": "Kubernetes and retiring at the top with Kelsey Hightower"
+    "text": "Agentic engineering and DHH\n\n\n\nfavorite-podcast-episodes\n\nai\n\n\n\n\nFavorite podcast episodes: September 2026 edition\n\n\n\n\n\n\n2026-11-25\n\n\n\n\n\n\n\n\n\n\n\n\nKubernetes and Kelsey Hightower\n\n\n\nfavorite-podcast-episodes\n\n\n\n\nFavorite podcast episodes: June 2026 edition\n\n\n\n\n\n\n2026-06-26\n\n\n\n\n\n\n\n\n\n\n\n\nCult Repo tech documentaries\n\n\n\ncult-repo\n\ndocumentary\n\n\n\n\nThe stories behind the technology we use and love\n\n\n\n\n\n\n2026-06-05\n\n\n\n\n\n\n\n\n\n\n\n\nPi, Data-Intensive Applications and OpenCode\n\n\n\nfavorite-podcast-episodes\n\n\n\n\nFavorite podcast episodes: May 2026 edition\n\n\n\n\n\n\n2026-05-30\n\n\n\n\n\n\n\n\n\n\n\n\nThe AI Doc\n\n\n\ndocumentary\n\nai\n\n\n\n\nA documentary about the risks and opportunities of AI\n\n\n\n\n\n\n2026-05-18\n\n\n\n\n\n\n\n\n\n\n\n\nDHH, Mitchell Hashimoto, Building Claude Code, Wetware and Monty\n\n\n\nfavorite-podcast-episodes\n\n\n\n\nFavorite podcast episodes: April 2026 edition\n\n\n\n\n\n\n2026-05-04\n\n\n\n\n\n\n\n\n\n\n\n\nQuarto, Small Language Models, Self-Hosting\n\n\n\nthis-month-i-learned\n\n\n\n\nThis month I learned: March 2026 edition\n\n\n\n\n\n\n2026-04-10\n\n\n\n\n\n\n\n\n\n\n\n\nThe Last Invention\n\n\n\npodcast\n\nai\n\n\n\n\nA podcast series about the AI revolution\n\n\n\n\n\n\n2026-03-02\n\n\n\n\n\n\n\n\n\n\n\n\nHello World\n\n\n\n\n\n\nMy second attempt at blogging regularly.\n\n\n\n\n\n\n2026-02-26\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "posts/fpe-2026-06/index.html#kubernetes-and-retiring-at-the-top",
-    "href": "posts/fpe-2026-06/index.html#kubernetes-and-retiring-at-the-top",
-    "title": "Kubernetes and Kelsey Hightower",
-    "section": "Kubernetes and retiring at the top",
-    "text": "Kubernetes and retiring at the top\nAnother gem from the Pragmatic Engineer Podcast. Kelsey Hightower talks about his unusual path into tech: he started as a self-taught technician installing DSL modems, ran his own computer store and ended up as a Distinguished Engineer at Google. Several of his career moves started with someone in a talk audience offering him a job. CoreOS, for example, hired him after watching him PXE-boot their OS live on stage.\nHe also covers the move from configuration management to containers and Kubernetes, and what it took to step back at the peak of his career. I especially liked how he talks about money: he treats it as a way to buy freedom, not as a status symbol. His take on AI is refreshingly people-first, and he’s careful about giving agents raw access to infrastructure without guardrails."
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Started with a Commodore 64 and an Amiga, built my own PCs and broke a few Linux installs.\nStudied Economics, Business Administration and Computer Science in the Netherlands (Maastricht) and Sweden (Jönköping). Learned Python along the way.\nWorked on BI and MLOps at Generali, including a stint in Milan, then built the MLOps team at Covestro.\nAfter Covestro, I founded byteCare and worked as a consultant at qdive (now Wavestone) and Comma Soft.\nToday I work on AI engineering and AI infrastructure at byteCare."
+  },
+  {
+    "objectID": "about.html#tldr",
+    "href": "about.html#tldr",
+    "title": "About",
+    "section": "",
+    "text": "Started with a Commodore 64 and an Amiga, built my own PCs and broke a few Linux installs.\nStudied Economics, Business Administration and Computer Science in the Netherlands (Maastricht) and Sweden (Jönköping). Learned Python along the way.\nWorked on BI and MLOps at Generali, including a stint in Milan, then built the MLOps team at Covestro.\nAfter Covestro, I founded byteCare and worked as a consultant at qdive (now Wavestone) and Comma Soft.\nToday I work on AI engineering and AI infrastructure at byteCare."
+  },
+  {
+    "objectID": "about.html#the-early-days",
+    "href": "about.html#the-early-days",
+    "title": "About",
+    "section": "The early days",
+    "text": "The early days\nMy first computers were a Commodore 64 and an Amiga in the 1980s. I remember swapping floppy disks, trying to get RAM expansions to work and drawing pixel art in Paintbrush on Windows 3.11.\nAt some point using computers wasn’t enough. I wanted to know how they worked, so I built my own PCs and fought with Windows ME and 2000. I saved up for a 3DFX Voodoo graphics card, so games finally looked good.\nMy first programming happened in config files. I tweaked autoexec.cfg and config.cfg to get a few more frames per second out of Counter-Strike. That got me into competitive gaming in the ESL: an Elsa 56k modem, heavy CRT monitors carried to LAN parties and matches organized on IRC, long before Discord.\nI also tried Linux early on (SuSE, later Ubuntu) and, of course, accidentally wiped my entire hard drive 🤷."
+  },
+  {
+    "objectID": "about.html#university",
+    "href": "about.html#university",
+    "title": "About",
+    "section": "University",
+    "text": "University\nI didn’t want to study computer science in isolation, so I chose a degree combining Economics, Business Administration and Computer Science. I studied in the Netherlands (Maastricht) and Sweden (Jönköping), which came with a few memorable tech moments:\n\niPhone: My first smartphone was an iPhone 3GS. Having maps and mobile internet in my pocket was a big deal.\nSpotify: It launched while I was in Sweden. I wanted it so badly that I asked a fellow student I had just met to sign me up with his credit card, because I didn’t own one yet.\nMac: On my flight to Sweden, the airline destroyed my Windows laptop. So I bought a Mac. Haven’t switched back since.\n\nThis is also when I learned Python, my first real programming language. I still use and love it today."
+  },
+  {
+    "objectID": "about.html#career",
+    "href": "about.html#career",
+    "title": "About",
+    "section": "Career",
+    "text": "Career\n\nGenerali\nI started my career at Generali as a technical project manager in Business Intelligence. I soon moved closer to the infrastructure and helped introduce Hadoop as part of Generali’s data architecture. BI taught me that whatever you build, a big part of the work is cleaning and shaping data.\nIn Milan (Italy), I led the implementation of Generali’s first ML-powered business process. Besides the tech, that meant a lot of project management and getting the people involved on board. Training the model was the easy part. Running it reliably in production was hard, so I moved into MLOps and worked a lot with Kubernetes and OpenShift, before MLOps was a common term.\n\n\nCovestro\nAt Covestro, I built the MLOps team and platform from scratch, running entirely on AWS with CI/CD pipelines and infrastructure as code. Besides Python, I started using Terraform, and Go or TypeScript when a project needed it.\n\n\nConsulting and byteCare\nAfter Covestro, I founded byteCare and moved into consulting, first as Lead AI Engineer at qdive (now part of Wavestone) and then as Principal Consultant for MLOps at Comma Soft, helping clients build and run their ML and AI platforms.\nToday I work on byteCare full-time. My focus is AI engineering and AI infrastructure: platforms that run LLM-based applications and assistants in production. I help organizations use AI that is cost-effective, performant and privacy-preserving, without giving up control over their data or blowing their infrastructure budget."
+  },
+  {
+    "objectID": "about.html#what-drives-me",
+    "href": "about.html#what-drives-me",
+    "title": "About",
+    "section": "What drives me",
+    "text": "What drives me\nI like taking things apart to see how they work, and then building something useful with them. That was true for the Amiga and it’s true for AI platforms. The tools change every few years. That part hasn’t."
+  },
+  {
+    "objectID": "about.html#get-in-touch",
+    "href": "about.html#get-in-touch",
+    "title": "About",
+    "section": "Get in touch",
+    "text": "Get in touch\nWant to chat? Reach out on LinkedIn. You’ll find my code on GitHub and my talks on the Talks page."
+  },
+  {
+    "objectID": "imprint.html",
+    "href": "imprint.html",
+    "title": "Impressum",
+    "section": "",
+    "text": "Stefan Langenbach\nAm Hangeweiher 3\n52074 Aachen\n\n\nKontakt\nTelefon: +49-241-95704253\nE-Mail: hello@langenbach.online\n\nQuelle: e-Recht24.de"
+  },
+  {
+    "objectID": "posts/ai-doc-movie/index.html",
+    "href": "posts/ai-doc-movie/index.html",
+    "title": "The AI Doc",
+    "section": "",
+    "text": "In his recent conversation with Sam Harris, Tristan Harris, which you might recall from The Social Dilemma, discusses the documentary The AI Doc. The movie investigates the risk and opportunities of AI by interviewing various researchers, CEOs and staff of the major AI labs. AFAIK the move is not yet available online, but the trailer already looks great."
+  },
+  {
+    "objectID": "posts/cult-repo-movies/index.html",
+    "href": "posts/cult-repo-movies/index.html",
+    "title": "Cult Repo tech documentaries",
+    "section": "",
+    "text": "I first discovered Cult Repo through the Node JS and Python documentaries back in 2024 and 2025. What I didn’t know, was that they have been creating software related documentaries (Kubernetes, Prometheus, Ruby, etc.) since 2018. Their most recent movies are about C++ and Java’s Spring Boot Framework. And although I never was a C++, nor Java developer, I really enjoyed both movies."
+  },
+  {
+    "objectID": "posts/fpe-2026-05/index.html",
+    "href": "posts/fpe-2026-05/index.html",
+    "title": "Pi, Data-Intensive Applications and OpenCode",
+    "section": "",
+    "text": "Building Pi with Mario Zechner and Armin Ronacher\nDesigning Data-Intensive Applications with Martin Kleppmann\nBuilding OpenCode with Dax Raad"
+  },
+  {
+    "objectID": "posts/fpe-2026-05/index.html#tldr",
+    "href": "posts/fpe-2026-05/index.html#tldr",
+    "title": "Pi, Data-Intensive Applications and OpenCode",
+    "section": "",
+    "text": "Building Pi with Mario Zechner and Armin Ronacher\nDesigning Data-Intensive Applications with Martin Kleppmann\nBuilding OpenCode with Dax Raad"
+  },
+  {
+    "objectID": "posts/fpe-2026-05/index.html#building-pi",
+    "href": "posts/fpe-2026-05/index.html#building-pi",
+    "title": "Pi, Data-Intensive Applications and OpenCode",
+    "section": "Building Pi",
+    "text": "Building Pi\nI really liked this episode from the Pragmatic Engineer Podcast. Mario’s approach to building a simple, stable and reliable coding agent is a very welcome breath of fresh air in the overhyped AI coding tools landscape."
+  },
+  {
+    "objectID": "posts/fpe-2026-05/index.html#designing-data-intensive-applications",
+    "href": "posts/fpe-2026-05/index.html#designing-data-intensive-applications",
+    "title": "Pi, Data-Intensive Applications and OpenCode",
+    "section": "Designing Data-Intensive Applications",
+    "text": "Designing Data-Intensive Applications\nMartin Kleppmann’s book Designing Data-Intensive Applications is considered a classic in software development literature. I personally own a copy and am currently reading through it. While it was great to hear that Martin has published the second edition of the book, his thoughts regarding local-first software really caught my interest. If you want to find out more about the local-first concept, check out Cult Repo’s mini documentation:"
+  },
+  {
+    "objectID": "posts/fpe-2026-05/index.html#building-opencode",
+    "href": "posts/fpe-2026-05/index.html#building-opencode",
+    "title": "Pi, Data-Intensive Applications and OpenCode",
+    "section": "Building OpenCode",
+    "text": "Building OpenCode\nA great look behind the scenes of developing OpenCode, combined with a realistic take on using AI for software development."
+  },
+  {
+    "objectID": "posts/fpe-2026-09/index.html",
+    "href": "posts/fpe-2026-09/index.html",
+    "title": "Agentic engineering and DHH",
+    "section": "",
+    "text": "Future of programming, AI and agentic engineering with DHH and Lex Fridman"
+  },
+  {
+    "objectID": "posts/fpe-2026-09/index.html#tldr",
+    "href": "posts/fpe-2026-09/index.html#tldr",
+    "title": "Agentic engineering and DHH",
+    "section": "",
+    "text": "Future of programming, AI and agentic engineering with DHH and Lex Fridman"
+  },
+  {
+    "objectID": "posts/fpe-2026-09/index.html#future-of-programming-ai-and-agentic-engineering",
+    "href": "posts/fpe-2026-09/index.html#future-of-programming-ai-and-agentic-engineering",
+    "title": "Agentic engineering and DHH",
+    "section": "Future of programming, AI and agentic engineering",
+    "text": "Future of programming, AI and agentic engineering\nIn his second conversation with Lex Fridman, DHH talks about programming with agents, vibe coding versus agentic engineering and how he builds Omarchy these days. I’m glued to the episode whenever he talks: the way he speaks and his attitude make it great to listen to, and it got me really excited to embrace AI.\nMy takeaway: try AI engineering, seriously. The episode made me try and adopt Skills for Real Engineers by Matt Pocock. They deserve their own TIL, so stay tuned."
   },
   {
     "objectID": "posts/last-invention-podcast/index.html",
