@@ -1,0 +1,12 @@
+---
+title: ""
+description: "Closing my tabs: November 2026 edition"
+date: "YYYY-MM-DD"
+categories: [closing-my-tabs]
+draft: true
+---
+
+Inspired by the popular German podcast [Too Many Tabs][1], I am closing my open tabs for November 2026.
+
+
+[1]: https://www.ndr.de/podcast/too-many-tabs-der-podcast,podcast5522.html

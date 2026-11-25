@@ -1,0 +1,41 @@
+---
+title: "1Password Environments, OpenShell and Pi Virtual Models"
+description: "This month I learned: October 2026 edition"
+date: "YYYY-MM-DD"
+categories: [this-month-i-learned]
+draft: true
+---
+
+## TL;DR
+
+- [1Password Environments][1]
+- [NVIDIA OpenShell][6] and its [1Password integration][2]
+- [Virtual Models][4] in [Pi][3]
+
+## 1Password Environments
+
+[1Password Environments][1] store a project's environment variables in 1Password instead of in `.env` files.
+
+- tbd
+
+## NVIDIA OpenShell
+
+[NVIDIA OpenShell][6] is an open-source runtime that runs AI agents like Claude Code, Codex or OpenCode in sandboxes. Policies control which files and network hosts the agent can reach.
+
+The [1Password integration][2] ([announcement][5]) hands secrets from an Environment to an OpenShell sandbox. The agent inside only ever sees placeholders, and OpenShell's gateway swaps in the real values for requests to hosts you approved.
+
+- tbd
+
+## Pi Virtual Models
+
+[Virtual Models][4] in the [Pi][3] coding agent let you select a single model while a router picks the actual model for each request, for example a small model for quick questions and a large one for hard problems.
+
+- tbd
+
+
+[1]: https://www.1password.dev/environments
+[2]: https://www.1password.dev/environments/nvidia-openshell
+[3]: https://pi.dev/
+[4]: https://pi.dev/docs/latest/virtual-models
+[5]: https://1password.com/blog/1password-nvidia-openshell
+[6]: https://docs.nvidia.com/openshell/latest/about/overview

@@ -1,0 +1,29 @@
+---
+title: "Switching to Proton and back"
+description: "Why I chose Proton Workspace for bytecare, and why I'm leaving again"
+date: "YYYY-MM-DD"
+categories: [proton]
+draft: true
+---
+
+## TL;DR
+
+I chose [Proton Workspace][1] over Microsoft 365 at [bytecare][2]. I'm switching back because Proton Calendar can't edit recurring events.
+
+## Why Proton
+
+- tbd
+
+## What worked
+
+- tbd
+
+## Why I'm switching back
+
+You can't edit recurring events in Proton Calendar. For a business calendar full of recurring meetings, that's a dealbreaker.
+
+- tbd
+
+
+[1]: https://proton.me/business/blog/proton-workspace
+[2]: https://www.bytecare.tech
