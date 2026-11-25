@@ -16,7 +16,7 @@ tasks:
     requires:
       vars:
         - name: POST_TYPE
-          enum: [default, til, fpe]
+          enum: [default, til, fpe, cmt]
         - name: POST_NAME
     status:
       - test -d {{.POST_NAME}}
@@ -26,7 +26,7 @@ tasks:
     dir: talks
     cmds:
       - mkdir -p {{.TALK_NAME}}
-      - cp 
+      - cp _templates/talk.qmd ./{{.TALK_NAME}}/index.qmd
     requires:
       vars:
         - name: TALK_NAME

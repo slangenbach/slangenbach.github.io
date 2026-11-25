@@ -1,0 +1,11 @@
+---
+title: ""
+description: "Closing my tabs: <MONTH> <YEAR> edition"
+date: "YYYY-MM-DD"
+categories: [closing-my-tabs]
+draft: true
+---
+
+## TL;DR
+
+tbd

@@ -11,3 +11,9 @@ Default vocabulary: `needs-triage`, `needs-info`, `ready-for-agent`, `ready-for-
 ### Domain docs
 
 Single-context: one `GLOSSARY.md` and `docs/adr/` at the repo root. See `docs/agents/domain.md`.
+
+### Writing
+
+- Before drafting or editing a Post, read `docs/agents/writing-style.md`.
+- Before changing site content, templates or config, read `docs/agents/tooling.md`.
+- Ideas for Posts wait in `IDEAS.md`. The `capture-idea` and `write-post` skills handle them.

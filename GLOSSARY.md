@@ -16,6 +16,16 @@ _Avoid_: Presentation, session
 The slides Stefan shows during a Talk.
 _Avoid_: Presentation, slides (fine casually)
 
+## Pipeline
+
+**Idea**:
+Something Stefan captured to blog about later that isn't a Post yet. It waits in the Idea inbox until a Post uses it.
+_Avoid_: Note, todo
+
+**Idea inbox**:
+The `IDEAS.md` file at the repo root, where Ideas wait, grouped by the Series or standalone Post they're meant for.
+_Avoid_: TODO file, backlog
+
 ## Classification
 
 **Series**:
