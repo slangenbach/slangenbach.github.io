@@ -7,6 +7,7 @@ The site is a [Quarto](https://quarto.org/docs/guide/) website, driven through [
 `taskfile.yml` is the source of truth for commands (`task --list`). The ones Posts need:
 
 - `task new-post POST_TYPE=<default|til|fpe|cmt> POST_NAME=<slug>` copies the template from `posts/_templates/` into `posts/<slug>/index.qmd`. It does nothing when the folder already exists.
+- `task new-talk TALK_NAME=<slug>` does the same for a Talk, from `talks/_templates/talk.qmd`.
 - `task preview` runs `quarto preview` to check a page locally. In a session without Quarto, run `quarto render` where it is installed, or leave the check to Stefan.
 
 Series Post slugs follow `<series>-<YYYY-MM>`: `til-2026-11`, `fpe-2026-06`, `cmt-2026-11`.

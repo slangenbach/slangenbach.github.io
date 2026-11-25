@@ -26,7 +26,7 @@ tasks:
     dir: talks
     cmds:
       - mkdir -p {{.TALK_NAME}}
-      - cp 
+      - cp _templates/talk.qmd ./{{.TALK_NAME}}/index.qmd
     requires:
       vars:
         - name: TALK_NAME
