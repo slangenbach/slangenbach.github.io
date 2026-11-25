@@ -158,7 +158,7 @@
     "href": "blog.html",
     "title": "Blog",
     "section": "",
-    "text": "Cult Repo tech documentaries\n\n\n\ncult-repo\n\ndocumentary\n\n\n\n\nThe stories behind the technology we use and love\n\n\n\n\n\n\n2026-06-05\n\n\n\n\n\n\n\n\n\n\n\n\nPi, Data-Intensive Applications and OpenCode\n\n\n\nfavorite-podcast-episodes\n\n\n\n\nFavorite podcast episodes: May 2026 edition\n\n\n\n\n\n\n2026-05-30\n\n\n\n\n\n\n\n\n\n\n\n\nThe AI Doc\n\n\n\ndocumentary\n\nai\n\n\n\n\nA documentary about the risks and opportunities of AI\n\n\n\n\n\n\n2026-05-18\n\n\n\n\n\n\n\n\n\n\n\n\nDHH, Mitchell Hashimoto, Building Claude Code, Wetware and Monty\n\n\n\nfavorite-podcast-episodes\n\n\n\n\nFavorite podcast episodes: April 2026 edition\n\n\n\n\n\n\n2026-05-04\n\n\n\n\n\n\n\n\n\n\n\n\nQuarto, Small Language Models, Self-Hosting\n\n\n\nthis-month-i-learned\n\n\n\n\nThis month I learned: March 2026 edition\n\n\n\n\n\n\n2026-04-10\n\n\n\n\n\n\n\n\n\n\n\n\nThe Last Invention\n\n\n\npodcast\n\nai\n\n\n\n\nA podcast series about the AI revolution\n\n\n\n\n\n\n2026-03-02\n\n\n\n\n\n\n\n\n\n\n\n\nHello World\n\n\n\n\n\n\nMy second attempt at blogging regularly.\n\n\n\n\n\n\n2026-02-26\n\n\n\n\n\nNo matching items"
+    "text": "Kubernetes and Kelsey Hightower\n\n\n\nfavorite-podcast-episodes\n\n\n\n\nFavorite podcast episodes: June 2026 edition\n\n\n\n\n\n\n2026-06-26\n\n\n\n\n\n\n\n\n\n\n\n\nCult Repo tech documentaries\n\n\n\ncult-repo\n\ndocumentary\n\n\n\n\nThe stories behind the technology we use and love\n\n\n\n\n\n\n2026-06-05\n\n\n\n\n\n\n\n\n\n\n\n\nPi, Data-Intensive Applications and OpenCode\n\n\n\nfavorite-podcast-episodes\n\n\n\n\nFavorite podcast episodes: May 2026 edition\n\n\n\n\n\n\n2026-05-30\n\n\n\n\n\n\n\n\n\n\n\n\nThe AI Doc\n\n\n\ndocumentary\n\nai\n\n\n\n\nA documentary about the risks and opportunities of AI\n\n\n\n\n\n\n2026-05-18\n\n\n\n\n\n\n\n\n\n\n\n\nDHH, Mitchell Hashimoto, Building Claude Code, Wetware and Monty\n\n\n\nfavorite-podcast-episodes\n\n\n\n\nFavorite podcast episodes: April 2026 edition\n\n\n\n\n\n\n2026-05-04\n\n\n\n\n\n\n\n\n\n\n\n\nQuarto, Small Language Models, Self-Hosting\n\n\n\nthis-month-i-learned\n\n\n\n\nThis month I learned: March 2026 edition\n\n\n\n\n\n\n2026-04-10\n\n\n\n\n\n\n\n\n\n\n\n\nThe Last Invention\n\n\n\npodcast\n\nai\n\n\n\n\nA podcast series about the AI revolution\n\n\n\n\n\n\n2026-03-02\n\n\n\n\n\n\n\n\n\n\n\n\nHello World\n\n\n\n\n\n\nMy second attempt at blogging regularly.\n\n\n\n\n\n\n2026-02-26\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
@@ -215,6 +215,27 @@
     "title": "DHH, Mitchell Hashimoto, Building Claude Code, Wetware and Monty",
     "section": "Monty",
     "text": "Monty\nSamuel Colvin discusses Monty, a Python interpreter for AI agents written in Rust."
+  },
+  {
+    "objectID": "posts/fpe-2026-06/index.html",
+    "href": "posts/fpe-2026-06/index.html",
+    "title": "Kubernetes and Kelsey Hightower",
+    "section": "",
+    "text": "Kubernetes and retiring at the top with Kelsey Hightower"
+  },
+  {
+    "objectID": "posts/fpe-2026-06/index.html#tldr",
+    "href": "posts/fpe-2026-06/index.html#tldr",
+    "title": "Kubernetes and Kelsey Hightower",
+    "section": "",
+    "text": "Kubernetes and retiring at the top with Kelsey Hightower"
+  },
+  {
+    "objectID": "posts/fpe-2026-06/index.html#kubernetes-and-retiring-at-the-top",
+    "href": "posts/fpe-2026-06/index.html#kubernetes-and-retiring-at-the-top",
+    "title": "Kubernetes and Kelsey Hightower",
+    "section": "Kubernetes and retiring at the top",
+    "text": "Kubernetes and retiring at the top\nAnother gem from the Pragmatic Engineer Podcast. Kelsey Hightower talks about his unusual path into tech: he started as a self-taught technician installing DSL modems, ran his own computer store and ended up as a Distinguished Engineer at Google. Several of his career moves started with someone in a talk audience offering him a job. CoreOS, for example, hired him after watching him PXE-boot their OS live on stage.\nHe also covers the move from configuration management to containers and Kubernetes, and what it took to step back at the peak of his career. I especially liked how he talks about money: he treats it as a way to buy freedom, not as a status symbol. His take on AI is refreshingly people-first, and he’s careful about giving agents raw access to infrastructure without guardrails."
   },
   {
     "objectID": "posts/last-invention-podcast/index.html",

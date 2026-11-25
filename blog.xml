@@ -17,7 +17,35 @@
 <width>144</width>
 </image>
 <generator>quarto-1.11.9</generator>
-<lastBuildDate>Fri, 05 Jun 2026 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Fri, 26 Jun 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Kubernetes and Kelsey Hightower</title>
+  <link>https://stefan.langenbach.online/posts/fpe-2026-06/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<ul>
+<li><a href="https://newsletter.pragmaticengineer.com/p/kubernetes-and-retiring-at-the-top">Kubernetes and retiring at the top</a> with Kelsey Hightower</li>
+</ul>
+</section>
+<section id="kubernetes-and-retiring-at-the-top" class="level2">
+<h2 class="anchored" data-anchor-id="kubernetes-and-retiring-at-the-top">Kubernetes and retiring at the top</h2>
+<p>Another gem from the <a href="https://newsletter.pragmaticengineer.com/">Pragmatic Engineer Podcast</a>. Kelsey Hightower talks about his unusual path into tech: he started as a self-taught technician installing DSL modems, ran his own computer store and ended up as a Distinguished Engineer at Google. Several of his career moves started with someone in a talk audience offering him a job. CoreOS, for example, hired him after watching him PXE-boot their OS live on stage.</p>
+<p>He also covers the move from configuration management to containers and Kubernetes, and what it took to step back at the peak of his career. I especially liked how he talks about money: he treats it as a way to buy freedom, not as a status symbol. His take on AI is refreshingly people-first, and he’s careful about giving agents raw access to infrastructure without guardrails.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>favorite-podcast-episodes</category>
+  <guid>https://stefan.langenbach.online/posts/fpe-2026-06/</guid>
+  <pubDate>Fri, 26 Jun 2026 00:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Cult Repo tech documentaries</title>
   <link>https://stefan.langenbach.online/posts/cult-repo-movies/</link>
