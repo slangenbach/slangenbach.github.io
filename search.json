@@ -4,14 +4,7 @@
     "href": "talks/programmier-con-2026/index.html",
     "title": "Big Tech, nein danke: KI souverän, sicher und performant auf der eigenen Hardware",
     "section": "",
-    "text": "Thanks for coming to my talk at programmier.con 2026 in Bad Nauheim. This page collects everything you need to try the Sovereignty Stack yourself."
-  },
-  {
-    "objectID": "talks/programmier-con-2026/index.html#abstract",
-    "href": "talks/programmier-con-2026/index.html#abstract",
-    "title": "Big Tech, nein danke: KI souverän, sicher und performant auf der eigenen Hardware",
-    "section": "Abstract",
-    "text": "Abstract\nCloud AI is convenient, but it has its pitfalls: unpredictable costs, data leaks and vendor lock-in. It’s time to take back control. In this talk I show you how to become independent of the big cloud providers. Together we build the “Sovereignty Stack”: a combination of open-source models, sandboxing and local orchestration, based on proven tools like Ollama, Docker and the Pi coding agent. The best part? We redefine “local”: we start on the laptop, scale out to a dedicated server and show how to bring in AI models from European data centres. The result is capable AI agents that keep your data safely inside your own infrastructure. Come along and learn how to regain full control over your AI systems."
+    "text": "Thank you for coming to my talk at programmier.con 2026 in Bad Nauheim. Below you can download the slides of the talk and get in touch with me."
   },
   {
     "objectID": "talks/programmier-con-2026/index.html#slides",
@@ -116,7 +109,7 @@
     "href": "index.html",
     "title": "Stefan Langenbach",
     "section": "",
-    "text": "Hi, I’m Stefan 👋🏻 I’m the founder of byteCare.\n\nThis is where I write down what I learn while building AI platforms: monthly TIL notes, podcast picks, talks and the occasional find from around the web.\nIf not coding, I do functional training, enjoy cooking and love strong espresso. More about me →"
+    "text": "Hi, I’m Stefan 👋🏻  I’m the founder of byteCare.\n\nThis is where I write down what I learn while building AI platforms: monthly TIL notes, podcast picks, talks and the occasional find from around the web.\nIf not coding, I do functional training, enjoy cooking and love strong espresso. More about me →"
   },
   {
     "objectID": "blog.html",
