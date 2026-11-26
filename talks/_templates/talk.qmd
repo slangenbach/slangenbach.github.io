@@ -7,7 +7,7 @@ categories: []
 draft: true
 ---
 
-## Slides
+## Abstract
 
 tbd
 
@@ -15,6 +15,10 @@ tbd
 
 tbd
 
-## Abstract
+## Slides
 
-tbd
+[Download the slides as a PDF](slides.pdf){download="stefan-langenbach-<event>-<year>-slides.pdf"}
+
+## Get in touch
+
+More about me on the [About](/about.qmd) page.

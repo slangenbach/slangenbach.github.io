@@ -3,7 +3,7 @@ title: "Big Tech, nein danke: KI souverän, sicher und performant auf der eigene
 subtitle: "programmier.con 2026"
 description: "Run AI agents on your own hardware with open models, a sandbox and EU providers: slides and contact for my programmier.con 2026 talk."
 date: "2026-11-25"
-categories: [ai, agents, sovereignty]
+categories: [ai, agents, local-ai, sandbox, sovereignty]
 aliases:
   - /pcon-2026
 draft: false
@@ -17,7 +17,7 @@ Cloud AI is convenient, but it has its pitfalls: unpredictable costs, data leaks
 
 ## Slides
 
-Coming soon.
+[Download the slides as a PDF](slides.pdf){download="stefan-langenbach-programmier-con-2026-slides.pdf"}
 
 ## Get in touch
 
