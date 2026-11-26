@@ -83,3 +83,10 @@ Ideas waiting to become Posts. The `capture-idea` skill adds them, the `write-po
 - **Captured:** 2026-11-25
 - **Said:** A standalone post using the AI to learn things: Examples: Prep for CKAD exam, refresh Java- and Typescript
 - **Links:** none
+
+### Local AI series
+
+- **Captured:** 2026-11-26
+- **Said:** Add a multi-post series, 1-3 post about Local AI to @IDEAS.md. The series should be based on my talk for pcon-2026
+- **Links:** https://github.com/slangenbach/pcon-2026
+- **Notes:** A series of 1–3 Posts, based on his Talk for programmier.con 2026.
