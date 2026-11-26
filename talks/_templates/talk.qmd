@@ -7,9 +7,7 @@ categories: []
 draft: true
 ---
 
-## Abstract
-
-tbd
+Thank you for coming to my talk at [event](https://www.event.xyz) in <location>. Below you can view the recording of the talk, download the slides and get in touch with me.
 
 ## Recording
 
@@ -17,7 +15,7 @@ tbd
 
 ## Slides
 
-[Download the slides as a PDF](slides.pdf){download="stefan-langenbach-<event>-<year>-slides.pdf"}
+Download the [slides as a PDF](slides.pdf){download="stefan-langenbach-<event>-<year>-slides.pdf"}
 
 ## Get in touch
 

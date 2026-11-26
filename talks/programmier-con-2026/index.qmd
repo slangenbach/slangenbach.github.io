@@ -1,7 +1,7 @@
 ---
 title: "Big Tech, nein danke: KI souverän, sicher und performant auf der eigenen Hardware"
 subtitle: "programmier.con 2026"
-description: "Run AI agents on your own hardware with open models, a sandbox and EU providers: slides and contact for my programmier.con 2026 talk."
+description: "Run AI agents on your own hardware with open models, a sandbox and EU providers"
 date: "2026-11-25"
 categories: [ai, agents, local-ai, sandbox, sovereignty]
 aliases:
@@ -9,15 +9,11 @@ aliases:
 draft: false
 ---
 
-Thanks for coming to my talk at [programmier.con 2026](https://www.programmier.bar/konferenz/programmier-con-2026-web-ai-edition) in Bad Nauheim. This page collects everything you need to try the Sovereignty Stack yourself.
-
-## Abstract
-
-Cloud AI is convenient, but it has its pitfalls: unpredictable costs, data leaks and vendor lock-in. It's time to take back control. In this talk I show you how to become independent of the big cloud providers. Together we build the "Sovereignty Stack": a combination of open-source models, sandboxing and local orchestration, based on proven tools like Ollama, Docker and the Pi coding agent. The best part? We redefine "local": we start on the laptop, scale out to a dedicated server and show how to bring in AI models from European data centres. The result is capable AI agents that keep your data safely inside your own infrastructure. Come along and learn how to regain full control over your AI systems.
+Thank you for coming to my talk at [programmier.con 2026](https://www.programmier.bar/konferenz/programmier-con-2026-web-ai-edition) in Bad Nauheim. Below you can download the slides of the talk and get in touch with me.
 
 ## Slides
 
-[Download the slides as a PDF](slides.pdf){download="stefan-langenbach-programmier-con-2026-slides.pdf"}
+Download the [slides as a PDF](slides.pdf){download="stefan-langenbach-programmier-con-2026-slides.pdf"}
 
 ## Get in touch
 

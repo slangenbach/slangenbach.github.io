@@ -15,7 +15,8 @@ about:
 ---
 
 ::: {.home-lead}
-Hi, I'm Stefan 👋🏻 I'm the founder of [byteCare][1].
+Hi, I'm Stefan 👋🏻 <br>
+I'm the founder of [byteCare][1].
 :::
 
 This is where I write down what I learn while building AI platforms: monthly [TIL notes](blog.qmd#category=this-month-i-learned), [podcast picks](blog.qmd#category=favorite-podcast-episodes), [talks](talks.qmd) and the occasional find from around the web.
