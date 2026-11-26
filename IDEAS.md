@@ -90,3 +90,10 @@ Ideas waiting to become Posts. The `capture-idea` skill adds them, the `write-po
 - **Said:** Add a multi-post series, 1-3 post about Local AI to @IDEAS.md. The series should be based on my talk for pcon-2026
 - **Links:** https://github.com/slangenbach/pcon-2026
 - **Notes:** A series of 1–3 Posts, based on his Talk for programmier.con 2026.
+
+### Local full-duplex voice
+
+- **Captured:** 2026-11-26
+- **Said:** One more idea related to local AI. What about local voice, meaning local full-duplex voice models. Do some research on the state of those models and what is possible today on a M-Series Macbook
+- **Links:** none
+- **Notes:** Related to the Local AI series; could become one of its Posts. Research notes: `docs/research/local-full-duplex-voice.md`.
